@@ -1,0 +1,21 @@
+.card {
+    background: #fff;
+    margin: 2px 0;
+    padding-bottom: 5px;
+}
+
+.card h4 {
+    padding: 0 0 2px 5px;
+}
+.cardsmall {
+    background: rgba(255, 0, 255, 50%);
+    margin: 1px;
+    padding: 5px;
+    width: 49.8svw;
+}
+
+@media (max-width: 600px) {
+    .cardsmall {
+        width: 100svw;
+    }
+}

@@ -1,0 +1,17 @@
+.navbar {
+    background: #fff;
+    color: #000;
+  }
+
+.navbar li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  width: 50svw;
+}  
+
+@media (max-width: 600px) {
+  .navbar li {
+    width: 100svw;
+  }
+}
