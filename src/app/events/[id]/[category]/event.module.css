@@ -1,0 +1,12 @@
+.container {
+    min-height: 85svh;
+    padding: 0 20px;
+    width: 100svw;
+    position: fixed;
+    top:10svh;
+    font-weight: 100;
+  }
+
+.container h1 {
+  font-weight: 100;
+}

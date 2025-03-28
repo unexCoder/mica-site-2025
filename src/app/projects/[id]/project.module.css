@@ -1,0 +1,20 @@
+.container {
+  min-height: 85svh;
+  padding: 0;
+  width: 100svw;
+  position: relative;
+  top: 10svh;
+  overflow: auto;
+  z-index: -1;
+}
+
+.textContainer {
+  margin-bottom: 4svh;
+  padding: 0 20px;
+  width: 100svw;
+  font-weight: 100;
+}
+
+.textContainer h1 {
+  font-weight: 100;
+}

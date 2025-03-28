@@ -1,6 +1,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --green:#bfff00;
 }
 
 html, body {
@@ -12,16 +13,14 @@ html, body {
 body {
   color: var(--foreground);
   background: var(--background);
-  /* font-family: var(--font-inter); */
-  /* font-family: var(--font-roboto-mono); */
-  /* font-family: var(--font-geist-sans); */
-  /* font-family: var(--font-geist-mono); */
+
   /* font-family: Arial, Helvetica, sans-serif; */
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale;  
 }
 
 * {
+  /* all: unset; */
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -35,12 +34,48 @@ a {
 header {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-  height: 10svh;
-  padding: 40px 20px;
+  align-items: flex-end;
+  height: 12dvh;
   position: fixed;
-  width: 100svw;
-  background: #bfff00;
+  width: 100vw;
+  background: var(--green);
+}
+
+
+.logo {
+  display: flex;
+  align-items: flex-end;
+}
+
+.title {  
+  width: 24vw;
+  min-width: 24vw;
+}
+
+.title h1 {
+  /* color:#17171777; */
+  color:#000;
+  padding:   0 0 8px 20px;
+  font-size: 2.5em;
+  /* font-variation-settings: 'wght' 100, 'wdth' 151,'opsz' 16,'slnt' 0;typo instance */
+  font-variation-settings: 'wght' 200, 'wdth' 51,'opsz' 16,'slnt' 0,'GRAD' 0,'XOPQ' 96,'YOPQ' 79,'XTRA' 468,'YTAS'750,'YTDE'-203,'YTLC' 514,'YTUC' 760,'YTFI' 738;
+  /* line-height: 0.95em; */
+}
+
+.header-bio {
+  width: 60vw;
+  padding-bottom: 13.5px;
+}
+
+.header-bio h2 {
+  font-size: 1em;
+  font-variation-settings: 'wght' 500, 'wdth' 121,'opsz' 16,'slnt' 0;
+  /* line-height: 1em; */
+}
+
+.instagram {  
+  padding: 0 20px 13.5px 0;
+  font-variation-settings: 'wght' 300, 'wdth' 151,'opsz' 16,'slnt' 0;
 }
 
 footer {
@@ -51,35 +86,24 @@ footer {
   position: fixed;
   width: 100svw;
   bottom: 0;
-  background: #bfff00;
+  background: var(--green);
+  background: linear-gradient(0deg, var(--green) 0%, rgba(191,255,0,0.2) 100%);
+  font-weight: 100;
+  font-variation-settings: 'opsz' 8;
 }
 
-.logo {
-  display: grid;
-  grid-template-columns: 1fr 5fr;
-  gap: 20px;
-}
 
-.title {
-  width: 10svw;
-  font-size: 0.5em;
-  line-height: 20px;
-}
 
-.header-bio {  
-  font-size: 0.5em;
-  line-height: 24px;
-}
-
-.instagram {
-  line-height: 30px;
+@media (max-width: 1200px) {
+  .title h1 {
+    line-height: 0.99em;
+    padding-bottom: 12px;
+  }
 }
 
 @media (max-width: 600px) {
   header {
     height: auto;
-    padding-bottom: 20px;
-    padding-top: 20px;
   }
 
   .logo {

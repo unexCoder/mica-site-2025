@@ -1,4 +1,4 @@
-"use client"
+// "use client"
 import styles from "./page.module.css";
 import MainContent from "./components/MainContent";
 import SideContent from "./components/SideContent";

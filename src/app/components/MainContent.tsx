@@ -1,6 +1,7 @@
 import styles from "../components/content.module.css";
 import Card from "./Card";
 import data from "../../../data/db.json";
+import Link from "next/link";
 
 export default function MainContent() {
 
@@ -17,11 +18,11 @@ export default function MainContent() {
         projects: Projects[];
     }
 
-    const projectData: ProjectData = JSON.parse(JSON.stringify( data ));
+    const projectData: ProjectData = data; // Directly use the imported JSON data
     // console.log(projectData.projects);
 
     return (
-        <div className={styles.container}>    
+        <div className={styles.container}>
             <nav className={styles.navbar}>
                 <div>
                     projects
@@ -29,10 +30,16 @@ export default function MainContent() {
             </nav>
 
             <div className={styles.cards}>
-                <Card title="work" image="https://live.staticflickr.com/65535/52861634524_cf430465ed_o.jpg" ></Card>
-                <Card title="work" image="https://live.staticflickr.com/65535/52861634524_cf430465ed_o.jpg" ></Card>
-                <Card title="work" image="https://live.staticflickr.com/65535/52861634524_cf430465ed_o.jpg" ></Card>
-                <Card title="work" image="https://live.staticflickr.com/65535/52861634524_cf430465ed_o.jpg" ></Card>
+                {/* Map over the JSON data to create Card components */}
+                {projectData.projects.map((project) => (
+                    <Link key={project.id} href={`/projects/${project.id}`}>
+                        <Card
+                            key={project.id}
+                            title={project.title}
+                            image={project.image || "https://via.placeholder.com/150"} // Fallback image
+                        />
+                    </Link>
+                ))}
             </div>
         </div>
     )

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter,Radio_Canada,Roboto } from 'next/font/google'
+import { Roboto_Flex } from 'next/font/google'
 import "./globals.css";
 
 // const inter = Inter({
@@ -7,16 +7,12 @@ import "./globals.css";
 //   display: 'swap',
 // })
 
-// const roboto = Roboto({
-//   weight:'400',
-//   subsets: ['latin'],
-//   display: 'swap',
-// })
-
-const radio = Radio_Canada({
-  weight:'300',
+const roboto = Roboto_Flex({
+  weight: 'variable',
   subsets: ['latin'],
   display: 'swap',
+  // design space
+  axes: ['opsz','wdth','slnt','GRAD','XOPQ','YOPQ','XTRA','YTAS','YTDE','YTLC','YTUC','YTFI'],
 })
 
 export const metadata: Metadata = {
@@ -30,7 +26,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={radio.className}>
+    <html lang="en" className={roboto.className}>
       <body>
         <header>
           <div className="logo">
@@ -39,7 +35,7 @@ export default function RootLayout({
             </div>
             <div className="header-bio">
               <h2>
-                Artista y docente Artista y docente Artista y docente Artista y docente
+              Micaela Trombini is a biosound artist and educator who explores the intersection between science, art, technology and biology through experimental practices in botany, programming and bioinformatics.
               </h2>
             </div>
           </div>
@@ -49,7 +45,7 @@ export default function RootLayout({
         </header>
           {children}
         <footer>
-          <p>micaelatrombini@gmail.com</p>
+          <a href="mailto:micaelatrombini555@gmail.com">Get in touch</a>
         </footer>
       </body>
     </html>

@@ -3,23 +3,324 @@
         {
             "id": 1,
             "title": "Fix the footer links please",
-            "image": "",
+            
+            
+            "image": "https://live.staticflickr.com/65535/54415998456_d8fdbc5b8a_k.jpg",
             "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf. Nunc ocarina sagittis quis Majoras Mask. Nulla in metus arcu. Suspendisse potenti. In vel mauris varius, consectetur Zora ipsum eget, Master Sword porttitor urna. Fusce elementum urna elit, eget eleifend velit consectetur eget. Integer vel lobortis ipsum, vitae auctor Ocarina of Time. Donec sed urna dapibus, interdum magna a, eleifend magna. Curabitur tincidunt enim a neque volutpat. Phasellus auctor magna vel nunc pretium, ut volutpat justo tristique. Pellentesque cursus convallis mauris, in tempus enim tincidunt vitae.",
             "user_email": "mario@netninja.dev"
         },
         {
             "id": 2,
             "title": "Add in a new stylesheet",
-            "image": "",
+            "image": "https://live.staticflickr.com/65535/54416186639_fca42569ad_k.jpg[/img",
             "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf. Nunc ocarina sagittis quis Majoras Mask. Nulla in metus arcu. Suspendisse potenti. In vel mauris varius, consectetur Zora ipsum eget, Master Sword porttitor urna. Fusce elementum urna elit, eget eleifend velit consectetur eget. Integer vel lobortis ipsum, vitae auctor Ocarina of Time. Donec sed urna dapibus, interdum magna a, eleifend magna. Curabitur tincidunt enim a neque volutpat. Phasellus auctor magna vel nunc pretium, ut volutpat justo tristique. Pellentesque cursus convallis mauris, in tempus enim tincidunt vitae.",
             "user_email": "mario@netninja.dev"
         },
         {
             "id": 3,
             "title": "Fix the footer links",
-            "image": "",
+            "image": "https://live.staticflickr.com/65535/54415998456_d8fdbc5b8a_k.jpg",
             "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf. Nunc ocarina sagittis quis Majoras Mask. Nulla in metus arcu. Suspendisse potenti. In vel mauris varius, consectetur Zora ipsum eget, Master Sword porttitor urna. Fusce elementum urna elit, eget eleifend velit consectetur eget. Integer vel lobortis ipsum, vitae auctor Ocarina of Time. Donec sed urna dapibus, interdum magna a, eleifend magna. Curabitur tincidunt enim a neque volutpat. Phasellus auctor magna vel nunc pretium, ut volutpat justo tristique. Pellentesque cursus convallis mauris, in tempus enim tincidunt vitae.",
             "user_email": "peach@netninja.dev"
+        },
+        {
+            "id": 4,
+            "title": "Fix the footer links",
+            "image": "https://live.staticflickr.com/65535/54415998456_d8fdbc5b8a_k.jpg",
+            "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf. Nunc ocarina sagittis quis Majoras Mask. Nulla in metus arcu. Suspendisse potenti. In vel mauris varius, consectetur Zora ipsum eget, Master Sword porttitor urna. Fusce elementum urna elit, eget eleifend velit consectetur eget. Integer vel lobortis ipsum, vitae auctor Ocarina of Time. Donec sed urna dapibus, interdum magna a, eleifend magna. Curabitur tincidunt enim a neque volutpat. Phasellus auctor magna vel nunc pretium, ut volutpat justo tristique. Pellentesque cursus convallis mauris, in tempus enim tincidunt vitae.",
+            "user_email": "peach@netninja.dev"
+        },
+        {
+            "id": 5,
+            "title": "Fix the footer links",
+            "image": "https://live.staticflickr.com/65535/54415998456_d8fdbc5b8a_k.jpg",
+            "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf. Nunc ocarina sagittis quis Majoras Mask. Nulla in metus arcu. Suspendisse potenti. In vel mauris varius, consectetur Zora ipsum eget, Master Sword porttitor urna. Fusce elementum urna elit, eget eleifend velit consectetur eget. Integer vel lobortis ipsum, vitae auctor Ocarina of Time. Donec sed urna dapibus, interdum magna a, eleifend magna. Curabitur tincidunt enim a neque volutpat. Phasellus auctor magna vel nunc pretium, ut volutpat justo tristique. Pellentesque cursus convallis mauris, in tempus enim tincidunt vitae.",
+            "user_email": "peach@netninja.dev"
+        },
+        {
+            "id": 6,
+            "title": "Fix the footer links",
+            "image": "https://live.staticflickr.com/65535/54415998456_d8fdbc5b8a_k.jpg",
+            "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf. Nunc ocarina sagittis quis Majoras Mask. Nulla in metus arcu. Suspendisse potenti. In vel mauris varius, consectetur Zora ipsum eget, Master Sword porttitor urna. Fusce elementum urna elit, eget eleifend velit consectetur eget. Integer vel lobortis ipsum, vitae auctor Ocarina of Time. Donec sed urna dapibus, interdum magna a, eleifend magna. Curabitur tincidunt enim a neque volutpat. Phasellus auctor magna vel nunc pretium, ut volutpat justo tristique. Pellentesque cursus convallis mauris, in tempus enim tincidunt vitae.",
+            "user_email": "peach@netninja.dev"
+        }
+    ],
+    "exhibitions":[
+        {
+            "id": 17,
+            "title": "Microclimax",
+            "host": "Dune Park, CABA.",
+            "date": "Oct ’23"
+        },   
+        {
+            "id": 16,
+            "title": "Insurgent Nature",
+            "host": "Complejo Astronómico Municipal, Rosario",
+            "date": "Jul ’22"
+        },   
+        {
+            "id": 15,
+            "title": "Biogenerative Installation",
+            "host": "Bioceres, Rosario",
+            "date": "Dec ’21"
+        },   
+        {
+            "id": 14,
+            "title": "Sound Garden",
+            "host": "Biblioteca Argentina Dr Juan Álvarez, Rosario",
+            "date": "Nov ’21"
+        },   
+        {
+            "id": 13,
+            "title": "Plant Music for Children",
+            "host": "Casa Imaginada, Rosario",
+            "date": "Nov ’21"
+        },   
+        {
+            "id": 12,
+            "title": "Contraption",
+            "host": "Centro Cultural de España, CABA",
+            "date": "Nov ’21"
+        },   
+        {
+            "id": 11,
+            "title": "Epistemópolis",
+            "host": "Casa Imaginada, Rosario",
+            "date": "Aug ’19"
+        }
+    ],
+    "residences":[
+        {
+            "id": 32,
+            "title": "Continuous Present: Art, Science and Technology Program.",
+            "host": "Fundación Bunge y Born + Fundación Williams.",
+            "date": "May ’23"
+        },   
+        {
+            "id": 31,
+            "title": "Collective Laboratory of Experimental Musical Creation.",
+            "host": "T R A M A S, CDMX.",
+            "date": "Mar ’23"
+        }   
+    ],
+    "performances":[
+        {
+            "id": 223,
+            "title": "Livecode Performance.",
+            "host": "Raumschiff, Linz",
+            "date": "Nov ’24"
+        },   
+        {
+            "id": 222,
+            "title": "Livecode Performance.",
+            "host": "Velak, Wien",
+            "date": "Nov ’24"
+        },   
+        {
+            "id": 221,
+            "title": "Livecode Performance.",
+            "host": "Vekks, Wien",
+            "date": "Nov ’24"
+        },   
+        {
+            "id": 220,
+            "title": "Livecode Performance.",
+            "host": "Vasulka Kitchen, Brno",
+            "date": "Nov ’24"
+        },   
+        {
+            "id": 219,
+            "title": "Livecode Performance.",
+            "host": "Alternativa Festival, Prague",
+            "date": "Nov ’24"
+        },   
+        {
+            "id": 218,
+            "title": "Livecode Performance.",
+            "host": "Dim Things, Berlin",
+            "date": "Nov ’24"
+        },   
+        {
+            "id": 217,
+            "title": "Livecode Performance.",
+            "host": "/ni:vi:ili/ Creative Code, Berlin",
+            "date": "Nov ’24"
+        },   
+        {
+            "id": 216,
+            "title": "Livecode Performance.",
+            "host": "Madame Claude, Berlin",
+            "date": "Nov ’24"
+        },   
+        {
+            "id": 215,
+            "title": "Livecode Performance.",
+            "host": "Café Central, Brussels",
+            "date": "Nov ’24"
+        },   
+        {
+            "id": 214,
+            "title": "Noiser experimental set.",
+            "host": "Chair de Poule, Paris",
+            "date": "Nov ’24"
+        },   
+        {
+            "id": 213,
+            "title": "Livecode Performance.",
+            "host": "CCIC La Tortuga, Madrid.",
+            "date": "Oct ’24"
+        },   
+        {
+            "id": 212,
+            "title": "Livecode Performance.",
+            "host": "CRUCE, Madrid.",
+            "date": "Oct ’24"
+        },   
+        {
+            "id": 211,
+            "title": "Livecode Performance.",
+            "host": "XXIX International Experimental Music Meeting. LEM, Barcelona.",
+            "date": "Oct ’24"
+        },   
+        {
+            "id": 210,
+            "title": "Livecode Performance.",
+            "host": "Dinamo Spai, Barcelona.",
+            "date": "Oct ’24"
+        },   
+        {
+            "id": 29,
+            "title": "Livecode Performance.",
+            "host": "Antic Forn de Vallcarca, Barcelona.",
+            "date": "Oct ’24"
+        },   
+        {
+            "id": 28,
+            "title": "Livecode Performance.",
+            "host": "Niu Spai, Barcelona.",
+            "date": "Oct ’24"
+        },   
+        {
+            "id": 27,
+            "title": "Livecode Performance.",
+            "host": "Espacio Panorama, CABA.",
+            "date": "Oct ’24"
+        },   
+        {
+            "id": 26,
+            "title": "ClipNoiser set.",
+            "host": "Casa Espacial, Rosario.",
+            "date": "Sep ’23"
+        },   
+        {
+            "id": 25,
+            "title": "Biocode.",
+            "host": "La Brújula Invisible, Córdoba.",
+            "date": "Sep ’23"
+        },   
+        {
+            "id": 24,
+            "title": "Target.",
+            "host": "Magma Espacio, CABA.",
+            "date": "Sep ’22"
+        },   
+        {
+            "id": 23,
+            "title": "Biocode.",
+            "host": "Crudo Arte Contemporáneo, Rosario.",
+            "date": "Aug ’22"
+        },   
+        {
+            "id": 22,
+            "title": "Biocode.",
+            "host": "Espacio Panorana, CABA.",
+            "date": "Apr ’22"
+        },   
+        {
+            "id": 21,
+            "title": "Biocode.",
+            "host": "XV Festival de Arte Sonoro, Radio Tsonami, Chile.",
+            "date": "Dec ’21"
+        }
+    ],
+    "collaborations":[
+        {
+            "id": 46,
+            "title": "Sound Design in 'A Night in Calilegua'",
+            "host": "Museo de la Memoria, Rosario.",
+            "date": "Mar ’24"
+        },   
+        {
+            "id": 45,
+            "title": "Connect",
+            "host": "T R A M A S, CDMX.",
+            "date": "Sep ’23"
+        },
+        {
+            "id": 44,
+            "title": "'Insight', Música Insolita",
+            "host": "Brazil.",
+            "date": "May ’23"
+        },
+        {
+            "id": 43,
+            "title": "'Locus', Sur Aural Festival' / T ́IWKAY, Other Possible Worlds",
+            "host": "Bolivia.",
+            "date": "Jul ’22"
+        },   
+        {
+            "id": 42,
+            "title": "“LOC's (Lab on a Chip)",
+            "host": "Sonido Atmosférico, Córdoba.",
+            "date": "Jun ’22"
+        },
+        {
+            "id": 41,
+            "title": "Ruido de color",
+            "host": "Crudo Arte Contemporáneo, Rosario.",
+            "date": "Mar ’21"
+        }   
+    ],
+    "talks":[
+        {
+            "id":52,
+            "title":"Vegetal Intelligence. Postnaturalism and Ecological Fragility. Compost Conference. Art and Technology on the Edges of the Anthropocene",
+            "host":"Universidad Provincial de Córdoba. Cordoba",
+            "date":"Sep ’23"
+        },
+        {
+            "id":51,
+            "title":"Biocode Project",
+            "host":"Complejo Cultural Parque de España, Rosario.",
+            "date":"Oct ’20",
+            "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf."
+        }
+    ],
+    "workshops":[
+        {
+            "id":65,
+            "name":"Biocode",
+            "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf."
+        },
+        {
+            "id":64,
+            "name":"Sounds of the Living World for Children",
+            "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf."
+        },
+        {
+            "id":63,
+            "name":"Algorithmic Noise",
+            "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf."
+        },
+        {
+            "id":62,
+            "name":"Creative Code",
+            "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf."
+        },
+        {
+            "id":61,
+            "name":"Experimental Science for Kids",
+            "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf."
         }
     ]
 }

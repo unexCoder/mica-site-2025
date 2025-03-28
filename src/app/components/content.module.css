@@ -17,13 +17,17 @@
 }
 
 .hoverContainer {
-  width: 45svw;
+  width: 46.8svw;
   height: "auto";
   position: fixed;
   bottom: 3svh;
   left:1.5svw;
   font-size:2em;
+  font-variation-settings: 'wght' 100, 'wdth' 151,'opsz' 14,'slnt' 0;
   color: #bfff00;
+}
+.sidecontainer{
+  margin-top: 1px;
 }
 
 @media (max-width: 600px) {
