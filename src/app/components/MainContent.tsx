@@ -10,9 +10,7 @@ export default function MainContent() {
         id: number;
         title: string;
         image: string;
-        body: string;
-        user_email: string;
-    }
+      }
 
     interface ProjectData {
         projects: Projects[];

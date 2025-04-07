@@ -1,14 +1,14 @@
 .navbar {
-    background: #fff;
-    color: #000;
-  }
+  background: #fff;
+  color: #000;
+}
 
 .navbar div {
   display: flex;
   justify-content: center;
   padding: 0;
   width: 47svw;
-}  
+}
 
 .container {
   display: flex;
@@ -21,12 +21,13 @@
   height: "auto";
   position: fixed;
   bottom: 3svh;
-  left:1.5svw;
-  font-size:2em;
-  font-variation-settings: 'wght' 100, 'wdth' 151,'opsz' 14,'slnt' 0;
+  left: 1.5svw;
+  font-size: 2em;
+  font-variation-settings: 'wght' 100, 'wdth' 151, 'opsz' 14, 'slnt' 0;
   color: #bfff00;
 }
-.sidecontainer{
+
+.sidecontainer {
   margin-top: 1px;
 }
 
@@ -38,5 +39,45 @@
   .container {
     position: relative;
     top: 20svh;
+  }
+
+  .videoContainer {
+    position: relative;
+    aspect-ratio: 16/9;
+    margin: 2rem 0;
+  }
+
+  .thumbnail {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .thumbnailImage {
+    object-fit: cover;
+  }
+
+  .playButton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.7);
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+  }
+
+  .playButton:hover {
+    transform: translate(-50%, -50%) scale(1.1);
   }
 }

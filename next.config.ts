@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
     appIsrStatus: false,
   },
   images: {
-    domains: ['live.staticflickr.com']
+    domains: ['live.staticflickr.com','img.youtube.com']
   }
 };
 

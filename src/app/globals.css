@@ -39,6 +39,7 @@ header {
   position: fixed;
   width: 100vw;
   background: var(--green);
+  z-index: 1;
 }
 
 

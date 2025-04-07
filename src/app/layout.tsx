@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Roboto_Flex } from 'next/font/google'
 import "./globals.css";
+import Link from "next/link";
 
 // const inter = Inter({
 //   subsets: ['latin'],
@@ -31,7 +32,9 @@ export default function RootLayout({
         <header>
           <div className="logo">
             <div className="title">
-              <h1>Micaela Trombini</h1>
+              <h1>
+                <Link href="/">Micaela Trombini</Link>
+              </h1>
             </div>
             <div className="header-bio">
               <h2>
