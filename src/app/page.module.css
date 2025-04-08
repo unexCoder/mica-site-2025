@@ -9,13 +9,11 @@
 
 .primaryContainer{
   display: flex;
-  /* display: none; */
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   position:inherit;
   overflow: auto;
-  /* height: 87%; */
 }
 
 .secondaryContainer {
@@ -24,8 +22,7 @@
   justify-content: flex-start;
   align-items: center;
   overflow: auto;
-  /* height: 87svh; */
-  /* padding-bottom: 29.5px; */
+  margin-left: 5px;
 } 
 
 .primaryContainer::-webkit-scrollbar, .secondaryContainer::-webkit-scrollbar {
@@ -34,7 +31,6 @@
 
 @media (max-width: 600px) {
   .container {
-    /* margin-top: 10svh; */
     padding: 0;
     position: inherit;
     height: fit-content;
@@ -42,12 +38,10 @@
   }
 
   .primaryContainer {
-    /* height: fit-content; */
     padding-bottom: 0;
     align-items: flex-start;
   }
   .secondaryContainer {
-    /* height: fit-content; */
     align-items: flex-start;
     padding-bottom: 0;
   }

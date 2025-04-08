@@ -6,11 +6,6 @@ import SideContent from "./components/SideContent";
 
 export default function Home() {
 
-  // const handleMouseOver = (event: React.MouseEvent<HTMLDivElement>) => {
-  //   const innerText = (event.target as HTMLDivElement).innerText;
-  //   console.log(`Hover over: ${innerText}`);
-  // };
-
   return (
     <div className={styles.container}>
       <div className={styles.primaryContainer}>
