@@ -108,8 +108,12 @@ footer {
   }
 
   .logo {
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
     margin-right: 50px;
+  }
+
+  .header-bio {
+   display: none;
   }
 }

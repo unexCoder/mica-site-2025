@@ -12,7 +12,7 @@ export default function Home() {
   // };
 
   return (
-    <div className={styles.page}>
+    <div className={styles.container}>
       <div className={styles.primaryContainer}>
         <MainContent></MainContent>
       </div>
