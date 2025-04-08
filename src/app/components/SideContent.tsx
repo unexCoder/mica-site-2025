@@ -65,7 +65,7 @@ export default function MainContent() {
                             <SmallCard
                                 key={e.id}
                                 title={e.title}
-                                text={e.host + e.date}
+                                text={e.host +" "+ e.date}
                             />
                         </Link>
                     ))}
@@ -77,7 +77,7 @@ export default function MainContent() {
                             <SmallCard
                                 key={e.id}
                                 title={e.title}
-                                text={e.host + e.date}
+                                text={e.host +" "+ e.date}
                             />
                         </Link>
                     ))}
@@ -89,7 +89,7 @@ export default function MainContent() {
                             <SmallCard
                                 key={e.id}
                                 title={e.title}
-                                text={e.host + e.date}
+                                text={e.host +" "+ e.date}
                             />
                         </Link>
                     ))}
@@ -101,7 +101,7 @@ export default function MainContent() {
                             <SmallCard
                                 key={e.id}
                                 title={e.title}
-                                text={e.host + e.date}
+                                text={e.host +" "+ e.date}
                             />
                         </Link>
                     ))}
@@ -113,7 +113,7 @@ export default function MainContent() {
                             <SmallCard
                                 key={e.id}
                                 title={e.title}
-                                text={e.host + e.date}
+                                text={e.host +" "+ e.date}
                             />
                         </Link>
                     ))}

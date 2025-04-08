@@ -1,6 +1,5 @@
 .navbar {
-  background: #fff;
-  color: #000;
+  
 }
 
 .navbar div {
@@ -37,8 +36,8 @@
   }
 
   .container {
-    position: relative;
-    top: 20svh;
+    /* position: relative; */
+    /* top: 20svh; */
   }
 
   .videoContainer {

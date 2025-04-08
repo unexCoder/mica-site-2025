@@ -1,4 +1,5 @@
 'use client'
+import { useEffect, useState } from 'react';
 import styles from "./navbar.module.css";
 
 export default function NavBar() {
@@ -22,27 +23,46 @@ export default function NavBar() {
         });
     };
 
+
+    const [isMobile, setIsMobile] = useState(false);
+
+    useEffect(() => {
+        // Set initial state
+        const handleResize = () => {
+          setIsMobile(window.innerWidth < 800);
+        };
+    
+        handleResize(); // Set it once on mount
+        window.addEventListener('resize', handleResize); // Update on resize
+        return () => window.removeEventListener('resize', handleResize);
+      }, []);
+      
     return (
 
         <nav className={styles.navbar}>
             <li>
                 <ul onClick={() => handleClick('exhibitions')}>
-                    exhibitions
+                    {/* exhibitions */}
+                    {isMobile ? 'exhibs' : 'exhibitions'}
                 </ul>
                 <ul onClick={() => handleClick('performances')}>
-                    performances
+                    {/* performances */}
+                    {isMobile ? 'perfos' : 'performances'}
+
                 </ul>
                 <ul onClick={() => handleClick('residences')}>
                     residences
                 </ul>
                 <ul onClick={() => handleClick('collaborations')}>
-                    collaborations
+                    {/* collaborations */}
+                    {isMobile ? 'collabs' : 'collaborations'}
                 </ul>
                 <ul onClick={() => handleClick('talks')}>
                     talks
                 </ul>
                 <ul onClick={() => handleClick('workshops')}>
-                    workshops
+                    {/* workshops */}
+                    {isMobile ? 'w/shops' : 'workshops'}
                 </ul>
             </li>
         </nav>

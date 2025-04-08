@@ -1,5 +1,6 @@
 .card {
-    background: #fff;
+    background: #000000;
+    color: var(--green);
     margin: 2px 0;
     padding-bottom: 5px;
 }
@@ -8,7 +9,8 @@
     padding: 0 0 2px 5px;
 }
 .cardsmall {
-    background: rgba(255, 0, 255, 50%);
+    background: #000000;
+    color: var(--green);
     margin: 1px;
     padding: 5px;
     width: 49.8svw;
