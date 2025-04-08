@@ -6,7 +6,18 @@ const nextConfig: NextConfig = {
     appIsrStatus: false,
   },
   images: {
-    domains: ['live.staticflickr.com','img.youtube.com']
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'live.staticflickr.com',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'img.youtube.com',
+        pathname: '/**',
+      },
+    ],
   }
 };
 
