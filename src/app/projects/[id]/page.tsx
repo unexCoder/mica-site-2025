@@ -53,7 +53,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
          <Image
           src={project.image}
           alt={project.title}
-          sizes="(max-width: 768px) 100vw, 50vw"
+          // sizes="(max-width: 768px) 100vw, 100vh"
           layout='responsive'
           width={5}
           height={3}
@@ -61,6 +61,8 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
           priority={true}
           className={styles.image}
         />
+
+        <h1 className={styles.projectTitle}>{project.title}</h1>
       </div>
 
       {/* Content Section */}

@@ -1,11 +1,11 @@
 .container {
+  background: #5e7c03;
   min-height: 85svh;
   padding: 0;
   width: 100svw;
   position: relative;
   top: 10svh;
   overflow: auto;
-  /* z-index: -1; */
 }
 
 .textContainer {
@@ -17,4 +17,18 @@
 
 .textContainer h1 {
   font-weight: 100;
+}
+
+/* .imageWrapper { 
+  object-fit: cover;
+  position: relative;
+  height: 88vh;
+} */
+
+.projectTitle {
+  font-size: 3em;
+  font-variation-settings: 'wght' 500, 'wdth' 151, 'opsz' 14, 'slnt' 0;
+  color: #fff;
+  position: relative;
+  top: -75px;
 }

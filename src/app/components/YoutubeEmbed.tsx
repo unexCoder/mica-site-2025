@@ -1,5 +1,5 @@
 'use client';
-import styles from "../components/content.module.css";
+import styles from "../components/youtubeEmbed.module.css";
 import { useState } from 'react';
 import Image from 'next/image';
 
@@ -8,7 +8,7 @@ interface YouTubeEmbedProps {
   }
   
   export function YouTubeEmbed({ url }: YouTubeEmbedProps) {
-    const [showVideo, setShowVideo] = useState(true);
+    const [showVideo, setShowVideo] = useState(false);
     const videoId = getYouTubeId(url);
     console.log("videoId", videoId);
     console.log("url", url);
@@ -18,9 +18,10 @@ interface YouTubeEmbedProps {
       <div className={styles.videoContainer}>
         {showVideo ? (
           <iframe
+            className={styles.videoFrame}
             width="50%"
             height="400"
-            src={`https://www.youtube.com/embed/${videoId}?autoplay=0`}
+            src={`https://www.youtube.com/embed/${videoId}?autoplay=1`}
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
@@ -34,7 +35,7 @@ interface YouTubeEmbedProps {
               className={styles.thumbnailImage}
               sizes="(max-width: 768px) 100vw, 600px"
             />
-            {/* <button className={styles.playButton}>▶</button> */}
+            <button className={styles.playButton}>▶</button>
           </div>
         )}
       </div>
