@@ -43,6 +43,7 @@
   }
   .secondaryContainer {
     align-items: flex-start;
+    margin-left: 0;
     padding-bottom: 0;
   }
 }

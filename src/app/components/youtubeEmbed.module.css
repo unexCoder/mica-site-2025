@@ -42,3 +42,13 @@
   border: none;
 }
 
+@media (max-width: 800px) {
+  .videoContainer {
+    width: 100svw;
+  }
+  
+  .videoFrame {
+    width: 100svw;
+  }
+}
+

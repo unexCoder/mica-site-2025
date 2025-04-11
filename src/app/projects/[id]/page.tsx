@@ -54,9 +54,9 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
         <Image
           src={project.image}
           alt={project.title}
-          sizes="(max-width: 768px) 100vw, 88vh"
+          // sizes="(max-width: 768px) 100vw, 88vh"
           layout='responsive'
-          objectFit="cover"
+          // objectFit="cover"
           width={5}
           height={2.75}
           quality={100}

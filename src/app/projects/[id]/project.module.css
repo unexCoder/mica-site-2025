@@ -1,13 +1,11 @@
 .container {
   /* background: #5e7c03; */
   background: #000;
-  /* min-height: 85svh; */
   padding: 0;
   width: 100svw;
   position: relative;
   top: 3svh;
   z-index: 2;
-  
 }
 
 .content {
@@ -27,10 +25,8 @@
   font-weight: 100;
 }
 
-.imageWrapper { 
-  /* object-fit: cover; */
-  /* position: relative; */
-  height: 96vh;
+.imageWrapper {
+  height: auto;
 }
 
 .projectTitle {
