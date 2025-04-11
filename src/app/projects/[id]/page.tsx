@@ -48,15 +48,17 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
   }
 
   return (
+
     <div className={styles.container}>
       <div className={styles.imageWrapper}>
-         <Image
+        <Image
           src={project.image}
           alt={project.title}
-          // sizes="(max-width: 768px) 100vw, 88vh"
+          sizes="(max-width: 768px) 100vw, 88vh"
           layout='responsive'
+          objectFit="cover"
           width={5}
-          height={3}
+          height={2.75}
           quality={100}
           priority={true}
           className={styles.image}
@@ -69,9 +71,9 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
       <div className={styles.content}>
 
         {/* <div className={styles.header}>
-          <h1 className={styles.title}>{project.title}</h1>
-          <h2 className={styles.subtitle}>{project.subtitle}</h2>
-        </div> */}
+            <h1 className={styles.title}>{project.title}</h1>
+            <h2 className={styles.subtitle}>{project.subtitle}</h2>
+          </div> */}
 
         {/* Blog Entries */}
         <article>
@@ -89,20 +91,20 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
               <YouTubeEmbed url={project.social.youtube} />
             </div>
           )}
-      
+
           {/* Social Links */}
           {(project.social?.youtube || project.social?.bandcamp || project.social?.hasher || project.social?.brvtvs) && (
             <div className={styles.socialLinks}>
               {/* {project.social.youtube && (
-                <a
-                  href={project.social.youtube}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={styles.socialLink}
-                >
-                  YouTube Channel
-                </a>
-              )} */}
+                  <a
+                    href={project.social.youtube}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={styles.socialLink}
+                  >
+                    YouTube Channel
+                  </a>
+                )} */}
               {project.social.bandcamp && (
                 <a
                   href={project.social.bandcamp}
@@ -125,10 +127,10 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
               )}
               {project.social.brvtvs && (
                 <a
-                href={project.social.brvtvs}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={styles.socialLink}
+                  href={project.social.brvtvs}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.socialLink}
                 >
                   <h1>B R V T V S</h1>
                 </a>
@@ -146,5 +148,6 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
 
       </div>
     </div>
+
   );
 }
