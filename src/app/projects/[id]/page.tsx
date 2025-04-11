@@ -85,7 +85,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
           {/* YouTube Embed */}
           {project.social?.youtube && (
             <div className={styles.videoSection}>
-              <h3 className={styles.videoTitle}>Video Documentation</h3>
+              <h3 className={styles.sectionTitle}>Video Documentation</h3>
               <YouTubeEmbed url={project.social.youtube} />
             </div>
           )}
@@ -106,7 +106,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
               {project.social.bandcamp && (
                 <a
                   href={project.social.bandcamp}
-                  target={project.social.bandcamp}
+                  target="_blank"
                   rel="noopener noreferrer"
                   className={styles.socialLink}
                 >
