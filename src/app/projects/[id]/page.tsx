@@ -53,7 +53,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
          <Image
           src={project.image}
           alt={project.title}
-          // sizes="(max-width: 768px) 100vw, 100vh"
+          // sizes="(max-width: 768px) 100vw, 88vh"
           layout='responsive'
           width={5}
           height={3}
@@ -67,10 +67,11 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
 
       {/* Content Section */}
       <div className={styles.content}>
-        <div className={styles.header}>
+
+        {/* <div className={styles.header}>
           <h1 className={styles.title}>{project.title}</h1>
           <h2 className={styles.subtitle}>{project.subtitle}</h2>
-        </div>
+        </div> */}
 
         {/* Blog Entries */}
         <article>
@@ -84,13 +85,13 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
           {/* YouTube Embed */}
           {project.social?.youtube && (
             <div className={styles.videoSection}>
-              <h3 className={styles.sectionTitle}>Video Documentation</h3>
+              <h3 className={styles.videoTitle}>Video Documentation</h3>
               <YouTubeEmbed url={project.social.youtube} />
             </div>
           )}
       
           {/* Social Links */}
-          {(project.social?.youtube || project.social?.bandcamp) && (
+          {(project.social?.youtube || project.social?.bandcamp || project.social?.hasher || project.social?.brvtvs) && (
             <div className={styles.socialLinks}>
               {/* {project.social.youtube && (
                 <a
@@ -105,11 +106,31 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
               {project.social.bandcamp && (
                 <a
                   href={project.social.bandcamp}
-                  target="_blank"
+                  target={project.social.bandcamp}
                   rel="noopener noreferrer"
                   className={styles.socialLink}
                 >
                   Bandcamp Profile
+                </a>
+              )}
+              {project.social.hasher && (
+                <a
+                  href={project.social.hasher}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.socialLink}
+                >
+                  <h1>Hasher</h1>
+                </a>
+              )}
+              {project.social.brvtvs && (
+                <a
+                href={project.social.brvtvs}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.socialLink}
+                >
+                  <h1>B R V T V S</h1>
                 </a>
               )}
             </div>

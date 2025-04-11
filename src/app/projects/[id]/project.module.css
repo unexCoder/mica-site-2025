@@ -1,11 +1,18 @@
 .container {
-  background: #5e7c03;
-  min-height: 85svh;
+  /* background: #5e7c03; */
+  background: #000;
+  /* min-height: 85svh; */
   padding: 0;
   width: 100svw;
   position: relative;
-  top: 10svh;
+  top: 0svh;
   overflow: auto;
+}
+
+.content {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .textContainer {
@@ -31,4 +38,24 @@
   color: #fff;
   position: relative;
   top: -75px;
+  padding: 0 20px;
+}
+
+.chapterTitle, .videoTitle, .socialLinks {
+  font-size: 1.5em;
+  color: var(--green);
+}
+
+.socialLinks {
+  margin: 20px 0;
+}
+
+.socialLinks a {
+  cursor:pointer;
+}
+
+.blogEntry {
+  margin:30px 0;
+  font-variation-settings: 'wght' 500, 'wdth' 151, 'opsz' 14, 'slnt' 0;
+  color: var(--green);
 }

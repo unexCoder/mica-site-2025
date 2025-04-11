@@ -1,5 +1,5 @@
 // components/BlogBody.tsx
-import styles from './content.module.css';
+import styles from './blogBody.module.css';
 import YouTubeEmbed from './YoutubeEmbed';
 
 const getYouTubeId = (url: string) => {
