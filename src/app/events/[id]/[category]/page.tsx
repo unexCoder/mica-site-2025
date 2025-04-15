@@ -95,44 +95,65 @@ export default async function EventPage({ params }: EventPageProps) {
         <p>{event.host}</p>
         <p>{event.user_email}</p> */}
 
-        {event?.category === "workshops" && event.abstract && event.structure && event.outcomes && event.curriculum && (
+        {event?.category === "workshops" && (
+
           <div>
+
             <h3>{event.category}</h3>
             <h1>{event.name}</h1>
             <p>{event.resume}</p>
             {/* <p>{event.description}</p> */}
-            <h2>{event.abstract.title}</h2>
-            {event.abstract.features?.map((entry: string,index: number) => (
-              <div key={index}>
-                <p>{entry}</p>
-              </div>
-            ))}
 
-            <h2>{event.structure.title}</h2>
-            <h2>{event.structure.duration}</h2>
-            <h2>{event.structure.resources.title}</h2>
-            {event.structure.resources.content?.map((entry: string,index: number) => (
-              <div key={index}>
-                <p>{entry}</p>
+            {event?.abstract && (
+              <div className={styles.abstract}>
+                <h2>{event.abstract.title}</h2>
+                {event.abstract.features?.map((entry: string, index: number) => (
+                  <div key={index}>
+                    <p>{entry}</p>
+                  </div>
+                ))}
               </div>
-            ))}
+            )}
 
-            <h2>{event.outcomes.title}</h2>
-            <h2>{event.outcomes.completion}</h2>
-            {event.outcomes.content?.map((entry: string, index: number) => (
-              <div key={index}>
-                <p>{entry}</p>
+            {event?.structure && (
+              <div className="styles structure">
+                <h2>{event.structure.title}</h2>
+                <h2>{event.structure.duration}</h2>
+                <h2>{event.structure.resources.title}</h2>
+                {event.structure.resources.content?.map((entry: string, index: number) => (
+                  <div key={index}>
+                    <p>{entry}</p>
+                  </div>
+                ))}
               </div>
-            ))}
-            <h2>{event.outcomes.goals}</h2>
+            )}
 
-            <h2>{event.curriculum.title}</h2>
-            {event.curriculum?.chapters?.map((entry: { chp: string, cnt: string }, index: number) => (
-              <div key={index}>
-                <h3>{entry.chp}</h3>
-                <p>{entry.cnt}</p>
+
+            {event?.outcomes && (
+              <div className="styles outcomes">
+                <h2>{event.outcomes.title}</h2>
+                <h2>{event.outcomes.completion}</h2>
+                {event.outcomes.content?.map((entry: string, index: number) => (
+                  <div key={index}>
+                    <p>{entry}</p>
+                  </div>
+                ))}
+                <h2>{event.outcomes.goals}</h2>
               </div>
-            ))}
+            )}
+
+            {event?.curriculum && (
+              <div className="styles curriculum">
+                <h2>{event.curriculum.title}</h2>
+                {event.curriculum?.chapters?.map((entry: { chp: string, cnt: string }, index: number) => (
+                  <div key={index}>
+                    <h3>{entry.chp}</h3>
+                    <p>{entry.cnt}</p>
+                  </div>
+                ))}
+
+              </div>
+            )}
 
             <h2>{event.footer}</h2>
 
