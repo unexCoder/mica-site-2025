@@ -1,5 +1,6 @@
 import styles from './event.module.css';
 import data from "../../../../../data/db.json";
+import { ReactElement, JSXElementConstructor, ReactNode, ReactPortal } from 'react';
 
 interface EventPageProps {
   params: { id: string, category: string }; // `id` will come as a string from the URL
@@ -12,9 +13,34 @@ type FlatItem = {
   name?: string;
   image?: string;
   body?: string;
-  user_email?: string;
   host?: string;
   date?: string;
+  resume?: string;
+  description?: string;
+  abstract?: { title: string, [key: string]: any };
+  structure?: {
+    title: string;
+    duration: string;
+    resources: { title: string; content: string[] };
+    suport: { title: string; content: string[] };
+    [key: string]: any;
+  };
+  outcomes?: {
+    title: string;
+    completion: string;
+    content: string[];
+    goals: string;
+    [key: string]: any;
+  };
+  curriculum?: {
+    title: string;
+    chapters: Array<{
+      chp: string;
+      cnt: string;
+    }>;
+  };
+
+  footer?: string;
 };
 
 
@@ -28,7 +54,7 @@ export function generateStaticParams() {
       category: category.toLowerCase()
     }))
   );
-  // console.log(flatArray);
+
   return flatArray.map((event) => ({
     id: event.id.toString() // Convert `id` to string for URL compatibility
   }));
@@ -52,7 +78,7 @@ export default async function EventPage({ params }: EventPageProps) {
       category: category.toLowerCase()
     }))
   );
-
+  console.log(flatArray);
   const event = flatArray.find((e) => e.id === eventId);
 
   if (!event) {
@@ -62,11 +88,63 @@ export default async function EventPage({ params }: EventPageProps) {
   return (
     <>
       <div className={styles.container}>
-        <h1>{event.category}</h1>
+        {/* <h1>{event.category}</h1>
         <h1>{event.title}</h1>
         <p>{event.body}</p>
         <p>{event.name}</p>
         <p>{event.host}</p>
+        <p>{event.user_email}</p> */}
+
+        {event?.category === "workshops" && event.abstract && event.structure && event.outcomes && event.curriculum && (
+          <div>
+            <h3>{event.category}</h3>
+            <h1>{event.name}</h1>
+            <p>{event.resume}</p>
+            {/* <p>{event.description}</p> */}
+            <h2>{event.abstract.title}</h2>
+            {event.abstract.features?.map((entry: string,index: number) => (
+              <div key={index}>
+                <p>{entry}</p>
+              </div>
+            ))}
+
+            <h2>{event.structure.title}</h2>
+            <h2>{event.structure.duration}</h2>
+            <h2>{event.structure.resources.title}</h2>
+            {event.structure.resources.content?.map((entry: string,index: number) => (
+              <div key={index}>
+                <p>{entry}</p>
+              </div>
+            ))}
+
+            <h2>{event.outcomes.title}</h2>
+            <h2>{event.outcomes.completion}</h2>
+            {event.outcomes.content?.map((entry: string, index: number) => (
+              <div key={index}>
+                <p>{entry}</p>
+              </div>
+            ))}
+            <h2>{event.outcomes.goals}</h2>
+
+            <h2>{event.curriculum.title}</h2>
+            {event.curriculum?.chapters?.map((entry: { chp: string, cnt: string }, index: number) => (
+              <div key={index}>
+                <h3>{entry.chp}</h3>
+                <p>{entry.cnt}</p>
+              </div>
+            ))}
+
+            <h2>{event.footer}</h2>
+
+            <div>
+              <button>Enroll Now</button>
+              <button>[Download Full Syllabus</button>
+              <button>Schedule a Discovery Call</button>
+            </div>
+
+          </div>
+        )}
+
       </div>
     </>
   );

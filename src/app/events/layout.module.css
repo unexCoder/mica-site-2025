@@ -1,0 +1,9 @@
+.layout header {
+    height: 3svh;
+    z-index: 3;
+}
+
+.headerTitle {  
+    padding: 5px 20px;
+    font-variation-settings: 'wght' 300, 'wdth' 151,'opsz' 16,'slnt' 0;
+  }

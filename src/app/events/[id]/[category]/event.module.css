@@ -1,11 +1,14 @@
 .container {
-    min-height: 85svh;
-    padding: 0 20px;
-    width: 100svw;
-    position: fixed;
-    top:10svh;
-    font-weight: 100;
-  }
+  background: var(--green);
+  min-height: 97svh;
+  padding: 0 20px;
+  /* width: 100svw; */
+  /* height: 88vh; */
+  position: relative;
+  top:3svh;
+  /* font-weight: 100; */
+  z-index: 2;
+}
 
 .container h1 {
   font-weight: 100;

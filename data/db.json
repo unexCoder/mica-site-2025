@@ -339,8 +339,34 @@
     "workshops":[
         {
             "id":65,
-            "name":"Biocode",
-            "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf."
+            "name":"BioCode Workshop: The Hidden Language of Plants",
+            "description": "In this groundbreaking virtual workshop, we bridge the worlds of botany and technology to explore the fascinating realm of plant intelligence and bio-digital interaction. Through four intensive 3-hour sessions combining scientific theory with hands-on practice, participants will discover how plants perceive their environment, communicate, and respond to stimuli - and learn to translate these biological processes into interactive art and technology.",
+            "structure": {
+                "title":"Workshop Structure:",
+                "duration":"4 live virtual sessions (3 hours each)",
+                "resources":{"title":"Comprehensive digital resource library including:",
+                            "content":["Ready-to-use code templates","Curated scientific bibliography","Technical guides and tutorials"]},
+                "suport":{"title":"Personalized project support:",
+                        "content":["Group consultation sessions","Individual project mentoring","Ongoing community forum access"]}
+
+            },
+            "outcomes": {
+                "title":"Learning Outcomes:",
+                "completion":"By completing this program, you'll gain:",
+                "content":["A deep understanding of plant sensitivity and intelligence","Practical skills in biodata sensing and interpretation","Techniques for creating plant-based soundscapes","Knowledge to design living installations","Hands-on experience developing your own bio-interactive project"],                            
+                "goals":"This unique program is designed for artists, designers, scientists, and curious minds who want to explore the future of human-plant collaboration. No prior technical experience is required - just an openness to reimagining our relationship with the natural world through innovative technology."
+            },
+            "curriculum":{"title":"Detailed Curriculum:",
+                        "chapters":[
+                            {"chp":"Class 1: Plant Intelligence and Biological Sensitivity.","cnt":"This session introduces the concept of plant intelligence, examining how plants perceive and respond to environmental stimuli such as light, touch, gravity, and chemical signals. We will explore scientific evidence of plant communication, including root signaling and mycorrhizal networks, while addressing questions like whether plants can detect sound or exhibit memory-like behaviors. By understanding these biological processes, participants will gain insight into the sophisticated ways plants interact with their surroundings."},
+                            {"chp":"Class 2: Hybrid Design and Living Interaction","cnt":"Building on plant sensitivity, this class focuses on the integration of biological systems with technology. Participants will learn how to monitor plant activity through biosensors that detect electromagnetic fields, micro-voltage fluctuations, pH levels, and ionic changes. We will discuss the development of bio-interfaces that translate plant signals into data, emphasizing ethical considerations in merging living organisms with electronic systems."},
+                            {"chp":"Class 3: Programming for Botanical Data Sonification","cnt":"Here, we transition from data collection to creative expression by converting plant biodata into sound. The session covers practical techniques for data sensing, serial communication, and Open Sound Control (OSC) protocols to stream biological signals in real time. Participants will also explore WiFi-enabled modules and server setups for local or remote biodata sonification, enabling interactive audio-visual projects."},
+                            {"chp":"Class 4: Living Installations and Bio-Sonic Meditation","cnt":"The final class applies these principles to immersive installations, blending art, technology, and ecology. We will discuss the design of responsive gardens and interactive exhibits using sensor networks and automation. Additionally, the workshop will introduce bio-sonic meditation, where plant-generated frequencies facilitate mindfulness, concluding with a dialogue on sustainable and aesthetically meaningful human-plant collaborations."}
+                        ]},
+            "resume":"In this groundbreaking virtual workshop, we bridge the worlds of botany and technology to explore the fascinating realm of plant intelligence and bio-digital interaction. Through four intensive 3-hour sessions combining scientific theory with hands-on practice, participants will discover how plants perceive their environment, communicate, and respond to stimuli - and learn to translate these biological processes into interactive art and technology.",
+            "abstract":{"title":"Enrollment Includes:",
+                        "features":["12 hours of live, interactive instruction","Lifetime access to all workshop materials","Private community platform membership","Certificate of completion","Optional project showcase opportunity"]},
+            "footer":"Join us to develop a new language for interacting with the natural world - one that blends science, technology and creativity in unprecedented ways. Spaces are limited to ensure personalized attention for all participants."            
         },
         {
             "id":64,
