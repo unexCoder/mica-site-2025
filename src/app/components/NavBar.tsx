@@ -14,7 +14,7 @@ export default function NavBar() {
     ];
 
     const handleClick = (activeSection: string) => {
-        console.log(activeSection);
+        // console.log(activeSection);
         sections.forEach(section => {
             const element = document.getElementById(section);
             if (element) {

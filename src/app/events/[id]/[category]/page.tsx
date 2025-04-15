@@ -1,6 +1,7 @@
 import styles from './event.module.css';
 import data from "../../../../../data/db.json";
 import { ReactElement, JSXElementConstructor, ReactNode, ReactPortal } from 'react';
+import Link from 'next/link';
 
 interface EventPageProps {
   params: { id: string, category: string }; // `id` will come as a string from the URL
@@ -99,7 +100,7 @@ export default async function EventPage({ params }: EventPageProps) {
 
           <div>
 
-            <h3>{event.category}</h3>
+            <Link href={`/`}><h3>{event.category}</h3></Link>
             <h1>{event.name}</h1>
             <p>{event.resume}</p>
             {/* <p>{event.description}</p> */}
@@ -159,7 +160,7 @@ export default async function EventPage({ params }: EventPageProps) {
 
             <div>
               <button>Enroll Now</button>
-              <button>[Download Full Syllabus</button>
+              <button>[Download Full Program</button>
               <button>Schedule a Discovery Call</button>
             </div>
 
