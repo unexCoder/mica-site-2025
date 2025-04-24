@@ -17,6 +17,8 @@ export default function MainContent() {
         title: string;
         host: string;
         date: string;
+        link?: string;
+        content?: boolean;
     }
     interface Workshop {
         id: number;
@@ -61,7 +63,9 @@ export default function MainContent() {
 
                 <div id="exhibitions">
                     {exhibitionData.exhibitions.map((e) => (
-                        <Link key={e.id} href={`/events/${e.id}/${'exhibitions'}`}>
+                        <Link key={e.id} href={e.content ? `/events/${e.id}/${'exhibitions'}` : `${e.link}`}
+                            target={e.content ? "_self" : "_blank"}
+                            rel={e.content ? "noopener noreferrer" : undefined}>
                             <SmallCard
                                 key={e.id}
                                 title={e.title}
@@ -73,7 +77,9 @@ export default function MainContent() {
 
                 <div id="performances">
                     {exhibitionData.performances.map((e) => (
-                        <Link key={e.id} href={`/events/${e.id}/${'performances'}`}>
+                        <Link key={e.id} href={e.content ? `/events/${e.id}/${'performances'}` : `${e.link}`} 
+                            target={e.content ? "_self" : "_blank"}
+                            rel={e.content ? "noopener noreferrer" : undefined}>
                             <SmallCard
                                 key={e.id}
                                 title={e.title}
@@ -85,7 +91,9 @@ export default function MainContent() {
 
                 <div id="residences">
                     {exhibitionData.residences.map((e) => (
-                        <Link key={e.id} href={`/events/${e.id}/${'residences'}`}>
+                        <Link key={e.id} href={e.content ? `/events/${e.id}/${'residences'}` : `${e.link}`}
+                            target={e.content ? "_self" : "_blank"}
+                            rel={e.content ? "noopener noreferrer" : undefined}>
                             <SmallCard
                                 key={e.id}
                                 title={e.title}
@@ -97,7 +105,9 @@ export default function MainContent() {
 
                 <div id="collaborations">
                     {exhibitionData.collaborations.map((e) => (
-                        <Link key={e.id} href={`/events/${e.id}/${'collaborations'}`}>
+                        <Link key={e.id} href={e.content ? `/events/${e.id}/${'collaborations'}` : `${e.link}`}
+                            target={e.content ? "_self" : "_blank"}
+                            rel={e.content ? "noopener noreferrer" : undefined}>
                             <SmallCard
                                 key={e.id}
                                 title={e.title}

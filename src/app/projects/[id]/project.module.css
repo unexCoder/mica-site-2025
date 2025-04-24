@@ -56,3 +56,8 @@
   font-variation-settings: 'wght' 500, 'wdth' 151, 'opsz' 14, 'slnt' 0;
   color: var(--green);
 }
+
+.footers {
+  color: var(--green);
+  padding: 20px 0;
+}

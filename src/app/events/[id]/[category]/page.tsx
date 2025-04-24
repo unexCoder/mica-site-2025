@@ -1,6 +1,6 @@
 import styles from './event.module.css';
 import data from "../../../../../data/db.json";
-import { ReactElement, JSXElementConstructor, ReactNode, ReactPortal } from 'react';
+// import { ReactElement, JSXElementConstructor, ReactNode, ReactPortal } from 'react';
 import Link from 'next/link';
 
 interface EventPageProps {
@@ -16,6 +16,8 @@ type FlatItem = {
   body?: string;
   host?: string;
   date?: string;
+  content?:boolean;
+  link?: string;
   resume?: string;
   description?: string;
   abstract?: { title: string, [key: string]: any };
@@ -40,7 +42,6 @@ type FlatItem = {
       cnt: string;
     }>;
   };
-
   footer?: string;
 };
 
@@ -98,73 +99,97 @@ export default async function EventPage({ params }: EventPageProps) {
 
         {event?.category === "workshops" && (
 
-          <div>
+          <div className={styles.workshop}>
 
-            <Link href={`/`}><h3>{event.category}</h3></Link>
-            <h1>{event.name}</h1>
-            <p>{event.resume}</p>
-            {/* <p>{event.description}</p> */}
+            <div className={styles.header}>
+              <Link href={`/`}><h3>{event.category.slice(0, -1)}</h3></Link>
+              <h1>{event.name}</h1>
+              <p>{event.resume}</p>
+              {/* <p>{event.description}</p> */}
+            </div>
 
             {event?.abstract && (
               <div className={styles.abstract}>
-                <h2>{event.abstract.title}</h2>
+                {/* <h2>{event.abstract.title}</h2> */}
                 {event.abstract.features?.map((entry: string, index: number) => (
-                  <div key={index}>
-                    <p>{entry}</p>
+                  <div key={index} className={styles.abstractItem}>
+                    <h2>{entry}</h2>
                   </div>
                 ))}
               </div>
             )}
-
-            {event?.structure && (
-              <div className="styles structure">
-                <h2>{event.structure.title}</h2>
-                <h2>{event.structure.duration}</h2>
-                <h2>{event.structure.resources.title}</h2>
-                {event.structure.resources.content?.map((entry: string, index: number) => (
-                  <div key={index}>
-                    <p>{entry}</p>
-                  </div>
-                ))}
-              </div>
-            )}
-
 
             {event?.outcomes && (
-              <div className="styles outcomes">
-                <h2>{event.outcomes.title}</h2>
-                <h2>{event.outcomes.completion}</h2>
-                {event.outcomes.content?.map((entry: string, index: number) => (
-                  <div key={index}>
-                    <p>{entry}</p>
-                  </div>
-                ))}
-                <h2>{event.outcomes.goals}</h2>
+              <div className={styles.outcomes}>
+                {/* <h2>{event.outcomes.title}</h2> */}
+                <div className={styles.outcomeItem}>
+                  <h2>{event.outcomes.goals}</h2>
+                </div>
+                <div className={styles.outcomeItem}>
+                  <h2>{event.outcomes.completion}</h2>
+                  {event.outcomes.content?.map((entry: string, index: number) => (
+                    <div key={index} className={styles.outcomeSubItem}>
+                      <h3>{entry}</h3>
+                    </div>
+                  ))}
+                </div>
               </div>
             )}
 
             {event?.curriculum && (
-              <div className="styles curriculum">
-                <h2>{event.curriculum.title}</h2>
+              <div className={styles.curriculum}>
+                <h3>{event.curriculum.title}</h3>
                 {event.curriculum?.chapters?.map((entry: { chp: string, cnt: string }, index: number) => (
-                  <div key={index}>
-                    <h3>{entry.chp}</h3>
+                  <div key={index} className={styles.curriculumChapter}>
+                    <h2>{entry.chp}</h2>
                     <p>{entry.cnt}</p>
                   </div>
                 ))}
-
+                <div className={styles.buttonsSmall}>
+                  <button>Download Full Program</button>
+                </div>
               </div>
             )}
 
-            <h2>{event.footer}</h2>
+            {event?.structure && (
+              <div className={styles.structure}>
+                {/* <h2>{event.structure.title}</h2> */}
+                <h2>{event.structure.duration}</h2>
+                <h2>{event.structure.resources.title}</h2>
+                {event.structure.resources.content?.map((entry: string, index: number) => (
+                  <div key={index} className={styles.structureItem}>
+                    <h3>{entry}</h3>
+                  </div>
+                ))}
+              </div>
+            )}
 
-            <div>
-              <button>Enroll Now</button>
-              <button>[Download Full Program</button>
+            <div className={styles.footer}>
+              <h2>{event.footer}</h2>
+            </div>
+
+            <div className={styles.buttons}>
               <button>Schedule a Discovery Call</button>
+              <button>Enroll Now</button>
             </div>
 
           </div>
+        )}
+
+        {event?.category === "performances" && (
+          <div>perfos</div>
+        )}
+        {event?.category === "exhibitions" && (
+          <div>exhibs</div>
+        )}
+        {event?.category === "residences" && (
+          <div>residences</div>
+        )}
+        {event?.category === "collaborations" && (
+          <div>collabs</div>
+        )}
+        {event?.category === "talks" && (
+          <div>talks</div>
         )}
 
       </div>

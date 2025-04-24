@@ -13,3 +13,143 @@
 .container h1 {
   font-weight: 100;
 }
+
+.workshop {
+  display: grid;
+  grid-template-columns: 5fr 12fr 5fr;
+  grid-gap: 10px 50px;
+}
+
+.workshop >* {
+  grid-column: 2 / -2; 
+  align-self: start;
+  
+}
+
+.workshop h1 {
+  font-size: 3em;
+  font-variation-settings: 'wght' 200, 'wdth' 51,'opsz' 16,'slnt' 0,'GRAD' 0,'XOPQ' 96,'YOPQ' 79,'XTRA' 468,'YTAS'750,'YTDE'-203,'YTLC' 514,'YTUC' 760,'YTFI' 738;
+}
+.workshop p {
+  font-size: 1.5em;
+  font-variation-settings: 'wght' 500, 'wdth' 51,'opsz' 16,'slnt' 0,'GRAD' 0,'XOPQ' 96,'YOPQ' 79,'XTRA' 468,'YTAS'750,'YTDE'-203,'YTLC' 514,'YTUC' 760,'YTFI' 738;
+}
+
+.header {
+  margin: 20px auto;
+}
+
+.abstract {
+  grid-column: span 1 / -1;
+  align-self: center;
+  background: var(--background-header);
+  color: var(--green);
+  padding: 10px;
+  border-radius: 5px;
+  transform: translate(0, 150px);
+}
+
+.structure h2 {
+  margin: 10px 0 0 0;
+}
+.structureItem h3 {
+  font-size: 1.25em;
+  margin: 10px 0 0 0;
+}
+
+.outcomes {
+  grid-column: 1 / span 1;
+  text-align: right;
+  background: var(--background-header);
+  color: var(--green);
+  padding: 10px;
+  border-radius: 5px;
+  transform: translate(0, -150px);
+}
+
+.outcomes h3 {
+  font-size: 1.25em;
+}
+.outcomeItem {
+  margin: 0 0 40px 0;
+}
+.outcomeSubItem {
+  margin: 10px 0 0 0;
+}
+
+.abstractItem {
+  margin: 0 0 10px 0;
+}
+.abstractItem h2 {
+  font-size: 1.25em;
+}
+
+.curriculum {
+  font-size: 1em;
+}
+
+.curriculumChapter {
+  margin: 0 0 40px 0;
+}
+.curriculumChapter p {
+  font-size: 1.15em;
+}
+
+.structure {
+  background: var(--background-header);
+  color: var(--green);
+  padding: 10px;
+  border-radius: 5px;
+  grid-column: span 1 / -1;
+  align-self: center;
+}
+
+.footer {
+  grid-column:  span 3 / -1;
+  margin: 0 20px;
+}
+
+.buttons {
+  grid-column: span 3  / -1;
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0;
+}
+
+.container button{
+  background: var(--background-header);
+  color: var(--green);
+  width: 250px;
+  height: 50px;
+  font-size: 1.25em;
+  border-radius: 5px;
+}
+
+.container button:hover {
+  cursor: pointer;
+}
+
+.buttonsSmall button {
+  width: 200px;
+  height: 30px;
+  font-size: 1em;
+}
+
+@media (max-width:700px) {
+  .workshop {
+      grid-template-columns: 1fr;
+  }
+
+  .workshop >* {
+    grid-column: span 3  / -1;
+    text-align: left;
+  }
+
+  .curriculum, .structure {
+    transform: translate(0, -100px);
+  }
+  
+  .buttons, .footer {
+    transform: translate(0, -50px);
+  }
+}

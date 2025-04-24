@@ -138,6 +138,13 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
             </div>
           )}
 
+          {/* Footer links */}
+          {project.social?.footer1 && (
+            <div className={styles.footers}>
+              <h3>{project.social.footer1}</h3>
+              <h3>{project.social.footer2}</h3>
+            </div>
+          )}
         </article>
 
         <img
