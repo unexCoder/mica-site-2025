@@ -3,6 +3,7 @@
   --green:#bfff00;
   --background-header: #000000;
   --background-header: linear-gradient(0deg, #000000 0%, #5e7c03 100%);
+  overscroll-behavior: none;
 }
 
 html, body {

@@ -19,5 +19,9 @@
 @media (max-width: 600px) {
     .cardsmall {
         width: 100svw;
+        margin-left: 0;
+        margin-right: 0;
+        border-left: 1px solid #000;
+        border-right: 1px solid #000;
     }
 }
