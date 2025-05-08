@@ -495,7 +495,7 @@
     ],
     "workshops": [
         {
-            "id": 65,
+            "id": 61,
             "name": "BioCode Workshop: The Hidden Language of Plants",
             "description": "In this groundbreaking virtual workshop, we bridge the worlds of botany and technology to explore the fascinating realm of plant intelligence and bio-digital interaction. Through four intensive 3-hour sessions combining scientific theory with hands-on practice, participants will discover how plants perceive their environment, communicate, and respond to stimuli - and learn to translate these biological processes into interactive art and technology.",
             "structure": {
@@ -565,11 +565,7 @@
             "footer": "Join us to develop a new language for interacting with the natural world - one that blends science, technology and creativity in unprecedented ways. Spaces are limited to ensure personalized attention for all participants."
         },
         {
-            "id": 64,
-            "name": "Sounds of the Living World for Children"
-        },
-        {
-            "id": 63,
+            "id": 60,
             "name": "Algorithmic Noise",
             "resume": "This immersive online workshop explores noise as a powerful sonic material and a creative tool in digital composition. Through real-time programming and generative systems, participants will learn how to sculpt complex textures, rhythmic patterns, and spatial sound environments using SuperCollider. Across 12 hours of live instruction, this workshop bridges sound design, digital arts, and live performance.",
             "structure": {
@@ -631,18 +627,7 @@
                     "Optional showcase opportunity"
                 ]
             },
-            "footer": "Join us to develop a new language for interacting with the natural world - one that blends science, technology and creativity in unprecedented ways. Spaces are limited to ensure personalized attention for all participants."
-            
-        },
-        {
-            "id": 62,
-            "name": "Creative Code",
-            "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf."
-        },
-        {
-            "id": 61,
-            "name": "Experimental Science for Kids",
-            "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf."
+            "footer": "Join us to develop a new language for interacting with the natural world - one that blends science, technology and creativity in unprecedented ways. Spaces are limited to ensure personalized attention for all participants."   
         }
     ]
 }

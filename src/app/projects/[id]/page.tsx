@@ -25,7 +25,7 @@ interface SocialLinks {
 
 
 interface ProjectPageProps {
-  params: { id: string }; // `id` will come as a string from the URL
+  params: Promise<{ id: string }> // `id` will come as a string from the URL
 }
 // Generate static params for all project IDs
 export function generateStaticParams() {

@@ -4,7 +4,7 @@ import data from "../../../../../data/db.json";
 import Link from 'next/link';
 
 interface EventPageProps {
-  params: { id: string, category: string }; // `id` will come as a string from the URL
+  params: Promise< { id: string, category: string }>; // `id` will come as a string from the URL
 }
 
 type FlatItem = {
@@ -58,7 +58,8 @@ export function generateStaticParams() {
   );
 
   return flatArray.map((event) => ({
-    id: event.id.toString() // Convert `id` to string for URL compatibility
+    id: event.id.toString(), // Convert `id` to string for URL compatibility
+    category: event.category
   }));
 
   // const events = data.events;
