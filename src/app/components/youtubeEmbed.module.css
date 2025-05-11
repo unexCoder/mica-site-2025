@@ -1,0 +1,54 @@
+.videoContainer {
+  /* aspect-ratio: 16/9; */
+  display: flex;
+  justify-content: center;
+  margin:50px 0;
+}
+
+.thumbnail {
+  /* position: relative; */
+  width: 800px;
+  height: 450px;
+  cursor: pointer;
+}
+
+.thumbnailImage {
+  object-fit: cover;
+}
+
+.playButton {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.7);
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  color: white;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.playButton:hover {
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+.videoFrame {
+  border: none;
+}
+
+@media (max-width: 800px) {
+  .videoContainer {
+    width: 100svw;
+  }
+  
+  .videoFrame {
+    width: 100svw;
+  }
+}
+

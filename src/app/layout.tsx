@@ -43,7 +43,7 @@ export default function RootLayout({
             </div>
           </div>
           <div className="instagram">
-            <p>INSTAGRAM</p>
+                <Link href="https://www.instagram.com/mica_trombini?igsh=ZXVhZ3poanRwZm1x" target="_blank"><p>INSTAGRAM</p></Link>
           </div>
         </header>
           {children}

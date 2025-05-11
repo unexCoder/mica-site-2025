@@ -25,7 +25,7 @@ interface SocialLinks {
 
 
 interface ProjectPageProps {
-  params: { id: string }; // `id` will come as a string from the URL
+  params: Promise<{ id: string }> // `id` will come as a string from the URL
 }
 // Generate static params for all project IDs
 export function generateStaticParams() {
@@ -48,27 +48,32 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
   }
 
   return (
+
     <div className={styles.container}>
       <div className={styles.imageWrapper}>
-         <Image
+        <Image
           src={project.image}
           alt={project.title}
-          sizes="(max-width: 768px) 100vw, 50vw"
+          // sizes="(max-width: 768px) 100vw, 88vh"
           layout='responsive'
+          // objectFit="cover"
           width={5}
-          height={3}
+          height={2.75}
           quality={100}
           priority={true}
           className={styles.image}
         />
+
+        <h1 className={styles.projectTitle}>{project.title}</h1>
       </div>
 
       {/* Content Section */}
       <div className={styles.content}>
-        <div className={styles.header}>
-          <h1 className={styles.title}>{project.title}</h1>
-          <h2 className={styles.subtitle}>{project.subtitle}</h2>
-        </div>
+
+        {/* <div className={styles.header}>
+            <h1 className={styles.title}>{project.title}</h1>
+            <h2 className={styles.subtitle}>{project.subtitle}</h2>
+          </div> */}
 
         {/* Blog Entries */}
         <article>
@@ -86,20 +91,20 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
               <YouTubeEmbed url={project.social.youtube} />
             </div>
           )}
-      
+
           {/* Social Links */}
-          {(project.social?.youtube || project.social?.bandcamp) && (
+          {(project.social?.youtube || project.social?.bandcamp || project.social?.hasher || project.social?.brvtvs) && (
             <div className={styles.socialLinks}>
               {/* {project.social.youtube && (
-                <a
-                  href={project.social.youtube}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={styles.socialLink}
-                >
-                  YouTube Channel
-                </a>
-              )} */}
+                  <a
+                    href={project.social.youtube}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={styles.socialLink}
+                  >
+                    YouTube Channel
+                  </a>
+                )} */}
               {project.social.bandcamp && (
                 <a
                   href={project.social.bandcamp}
@@ -110,9 +115,36 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
                   Bandcamp Profile
                 </a>
               )}
+              {project.social.hasher && (
+                <a
+                  href={project.social.hasher}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.socialLink}
+                >
+                  <h1>Hasher</h1>
+                </a>
+              )}
+              {project.social.brvtvs && (
+                <a
+                  href={project.social.brvtvs}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.socialLink}
+                >
+                  <h1>B R V T V S</h1>
+                </a>
+              )}
             </div>
           )}
 
+          {/* Footer links */}
+          {project.social?.footer1 && (
+            <div className={styles.footers}>
+              <h3>{project.social.footer1}</h3>
+              <h3>{project.social.footer2}</h3>
+            </div>
+          )}
         </article>
 
         <img
@@ -123,5 +155,6 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
 
       </div>
     </div>
+
   );
 }
