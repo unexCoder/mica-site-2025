@@ -142,16 +142,23 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
           {project.social?.footer1 && (
             <div className={styles.footers}>
               <h3>{project.social.footer1}</h3>
-              <h3>{project.social.footer2}</h3>
+              <a href={project.social.wathsapp}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h3>{project.social.footer2}</h3>
+              </a>
             </div>
           )}
         </article>
 
-        <img
-          src={project.footimage || "https://via.placeholder.com/150"}
-          alt={project.title}
-        />
-
+        {/* Footer image */}
+        {project?.footimage && (
+          <img
+            src={project.footimage}
+            alt={project.title}
+          />          
+        )}
 
       </div>
     </div>
