@@ -1,0 +1,23 @@
+.container {
+  background: var(--green);
+  min-height: 97svh;
+  padding: 0 20px;
+  /* width: 100svw; */
+  /* height: 88vh; */
+  position: relative;
+  top:3svh;
+  /* font-weight: 100; */
+  z-index: 2;
+}
+
+.container h1 {
+  font-weight: 100;
+}
+
+
+@media (max-width: 600px) {
+    .container {
+        height: 96svh;
+        top: 4svh;
+    }
+}

@@ -38,7 +38,7 @@ export default function RootLayout({
             </div>
             <div className="header-bio">
               <h2>
-              Micaela Trombini is a biosound artist and educator who explores the intersection between science, art, technology and biology through experimental practices in botany, programming and bioinformatics.
+                <Link href={"bio"}> Micaela Trombini is a biosound artist and educator who explores the intersection between science, art, technology and biology through experimental practices in botany, programming and bioinformatics.</Link>
               </h2>
             </div>
           </div>

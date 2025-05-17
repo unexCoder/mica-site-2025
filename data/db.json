@@ -45,10 +45,64 @@
                 "bandcamp": "https://ratasordarec.bandcamp.com/album/target "
             }
         },
+
+        {
+            "id": 4,
+            "title": "Sparklab: Science, Art & Technology for Kids",
+            "subtitle": "A space created with love, creativity, and curiosity",
+            "image": "https://live.staticflickr.com/65535/54416186639_b95bc0935b_b.jpg",
+            "blog": [
+                {
+                    "chapter":"Sparklab: Science, Art & Technology for Kids",
+                    "body": [
+                        "Sparklab is an independent, mobile project that I have been nurturing and developing for over ten years. It began as a personal initiative to bring science, art, and technology closer to children and teenagers through creative experimentation. My work is rooted in the belief that learning should be joyful, exploratory, and meaningful—especially during childhood and adolescence, when curiosity is at its peak. Sparklab is my way of offering a different kind of educational experience: one that is playful, hands-on, and deeply human.",
+                        "Each workshop is designed and led by me, with great attention to detail and care for the unique energy of each group. I create open-ended learning spaces where participants can build, play, test, discover, and express themselves freely. Activities range from making homemade circuits and simple robotic inventions, to working with light, sound, recycled materials, or colorful chemistry. The content is always interdisciplinary, blending scientific thinking with artistic expression, and adapted to different age groups and contexts. No two sessions are the same, and that's part of the magic.",
+                        "Sparklab is not a traditional classroom. It’s a space for exploration and imagination—where making mistakes is welcome, and experimentation is key. Children are encouraged to ask questions, challenge assumptions, and collaborate with others. The goal is not only to learn concepts, but to develop confidence, creativity, and a sense of wonder. I believe in creating environments where each child feels safe, seen, and empowered to try something new.",
+                        "Over the years, Sparklab has grown beyond my personal studio to reach a wide variety of communities. I have facilitated workshops in public schools, cultural centers, libraries, festivals, community projects, and also in private homes and creative spaces. I work both with public institutions and independent initiatives, always tailoring the experience to the space and the people involved. My mobile lab allows me to adapt easily, bringing tools and materials wherever the spark is needed.",
+                        "If you are an educator, a parent, or an organization looking to bring something truly creative and meaningful to your community, I would love to connect. Whether you're planning a one-time event, a collaborative residency, or a series of workshops, Sparklab is ready to travel and grow with you. Let’s co-create spaces where children can explore freely, think differently, and spark new ideas."
+                    ]
+                }
+            ],
+            "social": {
+                "footer1": "✨ Interested in learning more, booking a session, or organizing a creative event?",
+                "footer2": "👉 Click here to get in touch!",
+                "wathsapp":"https://wa.me/3413915875"
+            }
+        },
+
+        {
+            "id": 3,
+            "title": "Algorithmic Noise",
+            "image": "https://live.staticflickr.com/65535/54525456174_742cc5a1b3_b.jpg",
+            "blog": [
+                {
+                    "chapter": "Algorithmic Noise",
+                    "body": [
+                        "Algorithmic Noise is a research-creation project that explores noise as an aesthetic, philosophical, and algorithmic phenomenon—working from within code itself. It is not merely about generating noise as a visual or sonic result, but about approaching it as a conceptual tool: a force that disrupts, complicates, and opens up new possibilities. Through programming as a living language, the project intervenes in the logic of software, pushing its functions beyond their limits and exploring the expressive potential of error, saturation, distortion, and excess. Code is not treated as a neutral technical instrument, but as a symbolic and structural space where the unexpected can emerge. Writing code becomes a performative act, where the programmer operates as an explorer of the system’s edges, bending structures until something unforeseen surfaces. Instead of pursuing efficiency or cleanliness, the project embraces complexity, margin, and noise as an alternative form of sensitivity—one that can activate new ways of perceiving and thinking.",
+                        "This proposal unfolds at the intersection of generative art, creative programming, and critical reflection on the systems that shape our lives. In a world deeply mediated by algorithms that sort, filter, and normalize reality, introducing noise also means introducing dissent. It is a way to resist the homogenization of experience and to open cracks in the narratives of transparency, control, and optimization. Algorithmic Noise inhabits code through uncertainty, instability, and ambiguity, questioning both the technical conventions and the ideological frameworks that underpin them. It asks: What does noise reveal about the systems we inhabit? How can error become a creative force? What kind of sensitivity emerges when code allows itself to be contaminated by chaos? In this context, noise is not only an aesthetic—it's also a stance: a way of thinking with and against the languages that structure our digital experience."
+                    ]
+                },
+                {
+                    "chapter": "Livecode Performance",
+                    "body": [
+                        "My livecoding performances are grounded in a continuous, real-time dialogue with the machine, where algorithms are not only executed but also rewritten on the fly. This ongoing exchange transforms code into a live instrument, a language that is spoken and shaped in the moment. Each line typed becomes an action, each syntax variation a sonic possibility. Rather than following a predetermined path, the performance unfolds as an open system—sensitive to context, error, and spontaneity. The act of coding becomes visible and audible, turning the stage into a shared space where the logic of software is exposed and challenged. What emerges is a soundscape that is immersive, unpredictable, and in constant transformation, engaging the audience in a unique process of real-time algorithmic improvisation.",
+                        "These performances, presented across various venues and festivals in Europe and beyond, propose a radical approach to electronic sound and digital aesthetics. By using code as a performative and expressive tool, I explore the boundaries between control and chaos, structure and deviation. The algorithms act not only as compositional frameworks but also as agents of disruption—capable of collapsing, mutating, or overflowing their own logic. Each session becomes a sonic laboratory, where the machine's behavior is not only orchestrated but provoked. This method opens a space for listening that is both critical and embodied, where technology is not hidden behind polished interfaces but exposed in its raw, generative state. Livecoding, in this sense, is not just a way of producing sound—it's a way of thinking, performing, and experiencing the algorithm as a living, unstable force."
+                    ]
+                },
+                {
+                    "chapter": "Experimental noise projects",
+                    "body": ""
+                }
+            ],
+            "social": {
+                "hasher": "https://spicarecords.bandcamp.com/album/hasher",
+                "brvtvs": "https://b-r-v-t-v-s.bandcamp.com/album/demonoid"
+            }
+        },
         {
             "id": 2,
             "title": "BioCode: The Secret Music of Plants",
-            "image": "https://live.staticflickr.com/65535/54416186639_fca42569ad_k.jpg[/img",
+            "image": "https://live.staticflickr.com/65535/54525260286_7a51bb1d42_b.jpg",
             "blog": [
                 {
                     "chapter": "BioCode: The Secret Music of Plants",
@@ -125,69 +179,6 @@
                     ]
                 }
             ]
-        },
-        {
-            "id": 3,
-            "title": "Algorithmic Noise",
-            "image": "https://live.staticflickr.com/65535/54415998456_d8fdbc5b8a_k.jpg",
-            "blog": [
-                {
-                    "chapter": "Algorithmic Noise",
-                    "body": [
-                        "Algorithmic Noise is a research-creation project that explores noise as an aesthetic, philosophical, and algorithmic phenomenon—working from within code itself. It is not merely about generating noise as a visual or sonic result, but about approaching it as a conceptual tool: a force that disrupts, complicates, and opens up new possibilities. Through programming as a living language, the project intervenes in the logic of software, pushing its functions beyond their limits and exploring the expressive potential of error, saturation, distortion, and excess. Code is not treated as a neutral technical instrument, but as a symbolic and structural space where the unexpected can emerge. Writing code becomes a performative act, where the programmer operates as an explorer of the system’s edges, bending structures until something unforeseen surfaces. Instead of pursuing efficiency or cleanliness, the project embraces complexity, margin, and noise as an alternative form of sensitivity—one that can activate new ways of perceiving and thinking.",
-                        "This proposal unfolds at the intersection of generative art, creative programming, and critical reflection on the systems that shape our lives. In a world deeply mediated by algorithms that sort, filter, and normalize reality, introducing noise also means introducing dissent. It is a way to resist the homogenization of experience and to open cracks in the narratives of transparency, control, and optimization. Algorithmic Noise inhabits code through uncertainty, instability, and ambiguity, questioning both the technical conventions and the ideological frameworks that underpin them. It asks: What does noise reveal about the systems we inhabit? How can error become a creative force? What kind of sensitivity emerges when code allows itself to be contaminated by chaos? In this context, noise is not only an aesthetic—it's also a stance: a way of thinking with and against the languages that structure our digital experience."
-                    ]
-                },
-                {
-                    "chapter": "Livecode Performance",
-                    "body": [
-                        "My livecoding performances are grounded in a continuous, real-time dialogue with the machine, where algorithms are not only executed but also rewritten on the fly. This ongoing exchange transforms code into a live instrument, a language that is spoken and shaped in the moment. Each line typed becomes an action, each syntax variation a sonic possibility. Rather than following a predetermined path, the performance unfolds as an open system—sensitive to context, error, and spontaneity. The act of coding becomes visible and audible, turning the stage into a shared space where the logic of software is exposed and challenged. What emerges is a soundscape that is immersive, unpredictable, and in constant transformation, engaging the audience in a unique process of real-time algorithmic improvisation.",
-                        "These performances, presented across various venues and festivals in Europe and beyond, propose a radical approach to electronic sound and digital aesthetics. By using code as a performative and expressive tool, I explore the boundaries between control and chaos, structure and deviation. The algorithms act not only as compositional frameworks but also as agents of disruption—capable of collapsing, mutating, or overflowing their own logic. Each session becomes a sonic laboratory, where the machine's behavior is not only orchestrated but provoked. This method opens a space for listening that is both critical and embodied, where technology is not hidden behind polished interfaces but exposed in its raw, generative state. Livecoding, in this sense, is not just a way of producing sound—it's a way of thinking, performing, and experiencing the algorithm as a living, unstable force."
-                    ]
-                },
-                {
-                    "chapter": "Experimental noise projects",
-                    "body": ""
-                }
-            ],
-            "social": {
-                "hasher": "https://spicarecords.bandcamp.com/album/hasher",
-                "brvtvs": "https://b-r-v-t-v-s.bandcamp.com/album/demonoid"
-            }
-        },
-        {
-            "id": 4,
-            "title": "Sparklab: Science, Art & Technology for Kids",
-            "subtitle": "A space created with love, creativity, and curiosity",
-            "image": "https://live.staticflickr.com/65535/54415998456_d8fdbc5b8a_k.jpg",
-            "blog": [
-                {
-                    "chapter":"Sparklab: Science, Art & Technology for Kids",
-                    "body": [
-                        "Sparklab is an independent, mobile project that I have been nurturing and developing for over ten years. It began as a personal initiative to bring science, art, and technology closer to children and teenagers through creative experimentation. My work is rooted in the belief that learning should be joyful, exploratory, and meaningful—especially during childhood and adolescence, when curiosity is at its peak. Sparklab is my way of offering a different kind of educational experience: one that is playful, hands-on, and deeply human.",
-                        "Each workshop is designed and led by me, with great attention to detail and care for the unique energy of each group. I create open-ended learning spaces where participants can build, play, test, discover, and express themselves freely. Activities range from making homemade circuits and simple robotic inventions, to working with light, sound, recycled materials, or colorful chemistry. The content is always interdisciplinary, blending scientific thinking with artistic expression, and adapted to different age groups and contexts. No two sessions are the same, and that's part of the magic.",
-                        "Sparklab is not a traditional classroom. It’s a space for exploration and imagination—where making mistakes is welcome, and experimentation is key. Children are encouraged to ask questions, challenge assumptions, and collaborate with others. The goal is not only to learn concepts, but to develop confidence, creativity, and a sense of wonder. I believe in creating environments where each child feels safe, seen, and empowered to try something new.",
-                        "Over the years, Sparklab has grown beyond my personal studio to reach a wide variety of communities. I have facilitated workshops in public schools, cultural centers, libraries, festivals, community projects, and also in private homes and creative spaces. I work both with public institutions and independent initiatives, always tailoring the experience to the space and the people involved. My mobile lab allows me to adapt easily, bringing tools and materials wherever the spark is needed.",
-                        "If you are an educator, a parent, or an organization looking to bring something truly creative and meaningful to your community, I would love to connect. Whether you're planning a one-time event, a collaborative residency, or a series of workshops, Sparklab is ready to travel and grow with you. Let’s co-create spaces where children can explore freely, think differently, and spark new ideas."
-                    ]
-                }
-            ],
-            "social": {
-                "footer1": "✨ Interested in learning more, booking a session, or organizing a creative event?",
-                "footer2": "👉 [Click here to get in touch!] (You can link this to a contact form or email)"
-            }
-        },
-        {
-            "id": 5,
-            "title": "Fix the footer links",
-            "image": "https://live.staticflickr.com/65535/54415998456_d8fdbc5b8a_k.jpg",
-            "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf. Nunc ocarina sagittis quis Majoras Mask. Nulla in metus arcu. Suspendisse potenti. In vel mauris varius, consectetur Zora ipsum eget, Master Sword porttitor urna. Fusce elementum urna elit, eget eleifend velit consectetur eget. Integer vel lobortis ipsum, vitae auctor Ocarina of Time. Donec sed urna dapibus, interdum magna a, eleifend magna. Curabitur tincidunt enim a neque volutpat. Phasellus auctor magna vel nunc pretium, ut volutpat justo tristique. Pellentesque cursus convallis mauris, in tempus enim tincidunt vitae."
-        },
-        {
-            "id": 6,
-            "title": "Fix the footer links",
-            "image": "https://live.staticflickr.com/65535/54415998456_d8fdbc5b8a_k.jpg",
-            "body": "Lorem ipsum Triforce sit amet, Linkus Hyruleus tempus Ganondorf. Nunc ocarina sagittis quis Majoras Mask. Nulla in metus arcu. Suspendisse potenti. In vel mauris varius, consectetur Zora ipsum eget, Master Sword porttitor urna. Fusce elementum urna elit, eget eleifend velit consectetur eget. Integer vel lobortis ipsum, vitae auctor Ocarina of Time. Donec sed urna dapibus, interdum magna a, eleifend magna. Curabitur tincidunt enim a neque volutpat. Phasellus auctor magna vel nunc pretium, ut volutpat justo tristique. Pellentesque cursus convallis mauris, in tempus enim tincidunt vitae."
         }
     ],
     "exhibitions": [
@@ -195,50 +186,50 @@
             "id": 17,
             "title": "Microclimax",
             "host": "Dune Park, CABA.",
-            "content":true,
+            "content": true,
             "date": "Oct ’23"
         },
         {
             "id": 16,
             "title": "Insurgent Nature",
             "host": "Complejo Astronómico Municipal, Rosario",
-            "content":true,
+            "content": true,
             "date": "Jul ’22"
         },
         {
             "id": 15,
             "title": "Biogenerative Installation",
             "host": "Bioceres, Rosario",
-            "content":true,
+            "content": true,
             "date": "Dec ’21"
         },
         {
             "id": 14,
             "title": "Sound Garden",
             "host": "Biblioteca Argentina Dr Juan Álvarez, Rosario",
-            "content":true,
+            "content": true,
             "date": "Nov ’21"
         },
         {
             "id": 13,
             "title": "Plant Music for Children",
             "host": "Casa Imaginada, Rosario",
-            "content":true,
+            "content": true,
             "date": "Nov ’21"
         },
         {
             "id": 12,
             "title": "Contraption",
             "host": "Centro Cultural de España, CABA",
-            "content":false,
-            "link":"https://www.youtube.com/watch?v=pY6wjmdbpD8",
+            "content": false,
+            "link": "https://www.youtube.com/watch?v=pY6wjmdbpD8",
             "date": "Nov ’21"
         },
         {
             "id": 11,
             "title": "Epistemópolis",
             "host": "Casa Imaginada, Rosario",
-            "content":true,
+            "content": true,
             "date": "Aug ’19"
         }
     ],
@@ -247,15 +238,15 @@
             "id": 32,
             "title": "Continuous Present: Art, Science and Technology Program.",
             "host": "Fundación Bunge y Born + Fundación Williams.",
-            "content":false,
-            "link": "https://presentecontinuo.org/becarios-24/",
+            "content": false,
+            "link": "https://presentecontinuo.org/becarios-2/",
             "date": "May ’23"
         },
         {
             "id": 31,
             "title": "Collective Laboratory of Experimental Musical Creation.",
             "host": "T R A M A S, CDMX.",
-            "content":false,
+            "content": false,
             "link": "https://www.youtube.com/watch?v=eqZZ-I7t5Gw&t=2078s",
             "date": "Mar ’23"
         }
@@ -265,216 +256,240 @@
             "id": 223,
             "title": "Livecode Performance.",
             "host": "Raumschiff, Linz",
-            "link":"https://www.instagram.com/p/DChQMyftU4O/",
-            "content":false,
+            "link": "https://www.instagram.com/p/DChQMyftU4O/",
+            "content": false,
             "date": "Nov ’24"
         },
         {
             "id": 222,
             "title": "Livecode Performance.",
             "host": "Velak, Wien",
-            "content":true,
+            "content": true,
             "date": "Nov ’24"
         },
         {
             "id": 221,
             "title": "Livecode Performance.",
             "host": "Vekks, Wien",
-            "content":true,
+            "content": true,
             "date": "Nov ’24"
         },
         {
             "id": 220,
             "title": "Livecode Performance.",
             "host": "Vasulka Kitchen, Brno",
-            "link":"https://www.instagram.com/p/DC1h8T2xr-J/?img_index=3",
-            "content":false,
+            "link": "https://www.instagram.com/p/DC1h8T2xr-J/?img_index=3",
+            "content": false,
             "date": "Nov ’24"
         },
         {
             "id": 219,
             "title": "Livecode Performance.",
             "host": "Alternativa Festival, Prague",
-            "link":"https://www.alternativa-festival.cz/index.php/en/2024-mica-trombini",
-            "content":false,
+            "link": "https://www.alternativa-festival.cz/index.php/en/2024-mica-trombini",
+            "content": false,
             "date": "Nov ’24"
         },
         {
             "id": 218,
             "title": "Livecode Performance.",
             "host": "Dim Things, Berlin",
-            "content":true,
+            "content": true,
             "date": "Nov ’24"
         },
         {
             "id": 217,
             "title": "Livecode Performance.",
             "host": "/ni:vi:ili/ Creative Code, Berlin",
-            "link":"https://www.niviili.com/",
-            "content":false,
+            "link": "https://www.niviili.com/",
+            "content": false,
             "date": "Nov ’24"
         },
         {
             "id": 216,
             "title": "Livecode Performance.",
             "host": "Madame Claude, Berlin",
-            "content":true,
+            "content": true,
             "date": "Nov ’24"
         },
         {
             "id": 215,
             "title": "Livecode Performance.",
             "host": "Café Central, Brussels",
-            "content":true,
+            "content": true,
             "date": "Nov ’24"
         },
         {
             "id": 214,
             "title": "Noiser experimental set.",
             "host": "Chair de Poule, Paris",
-            "content":true,
+            "content": true,
             "date": "Nov ’24"
         },
         {
             "id": 213,
             "title": "Livecode Performance.",
             "host": "CCIC La Tortuga, Madrid.",
-            "content":true,
+            "content": true,
             "date": "Oct ’24"
         },
         {
             "id": 212,
             "title": "Livecode Performance.",
             "host": "CRUCE, Madrid.",
-            "content":true,
+            "content": true,
             "date": "Oct ’24"
         },
         {
             "id": 211,
             "title": "Livecode Performance.",
             "host": "XXIX International Experimental Music Meeting. LEM, Barcelona.",
-            "content":true,
+            "content": true,
             "date": "Oct ’24"
         },
         {
             "id": 210,
             "title": "Livecode Performance.",
             "host": "Dinamo Spai, Barcelona.",
-            "content":true,
+            "content": true,
             "date": "Oct ’24"
         },
         {
             "id": 29,
             "title": "Livecode Performance.",
             "host": "Antic Forn de Vallcarca, Barcelona.",
-            "content":true,
+            "content": true,
             "date": "Oct ’24"
         },
         {
             "id": 28,
             "title": "Livecode Performance.",
             "host": "Niu Spai, Barcelona.",
-            "content":true,
+            "content": true,
             "date": "Oct ’24"
         },
         {
             "id": 27,
             "title": "Livecode Performance.",
             "host": "Espacio Panorama, CABA.",
-            "content":true,
+            "content": true,
             "date": "Oct ’24"
         },
         {
             "id": 26,
             "title": "ClipNoiser set.",
             "host": "Casa Espacial, Rosario.",
-            "content":true,
+            "content": true,
             "date": "Sep ’23"
         },
         {
             "id": 25,
             "title": "Biocode.",
             "host": "La Brújula Invisible, Córdoba.",
-            "content":true,
+            "content": true,
             "date": "Sep ’23"
         },
         {
             "id": 24,
             "title": "Target.",
             "host": "Magma Espacio, CABA.",
-            "content":true,
+            "content": true,
             "date": "Sep ’22"
         },
         {
             "id": 23,
             "title": "Biocode.",
             "host": "Crudo Arte Contemporáneo, Rosario.",
-            "content":true,
+            "content": true,
             "date": "Aug ’22"
         },
         {
             "id": 22,
             "title": "Biocode.",
-            "host": "Espacio Panorana, CABA.",
-            "content":true,
+            "host": "Espacio Panorama, CABA.",
+            "content": true,
             "date": "Apr ’22"
         },
         {
             "id": 21,
             "title": "Biocode.",
             "host": "XV Festival de Arte Sonoro, Radio Tsonami, Chile.",
-            "link":"https://archive.org/details/xv-festival-de-arte-sonoro-tsonami-2021/026+%7C%C2%A0Dia3+%7C+Biocode+%7C%C2%A0Micaela+Trombini+(AR).mp3",
-            "content":false,
+            "link": "https://archive.org/details/xv-festival-de-arte-sonoro-tsonami-2021/026+%7C%C2%A0Dia3+%7C+Biocode+%7C%C2%A0Micaela+Trombini+(AR).mp3",
+            "content": false,
             "date": "Dec ’21"
         }
     ],
     "collaborations": [
         {
+            "id": 49,
+            "title": "Sound Design in Film: Translating One's Own (or the Symptom to Be Remembered). Directed by Nicolás Onischuk.",
+            "host": "Prismatic Ground, NYC.",
+            "link": "https://www.instagram.com/p/DJKGdhoxs9e/?img_index=1",
+            "content": false,
+            "date": "Apr ’25"
+        },
+        {
+            "id": 48,
+            "title": "EX! Magazine Issue 2",
+            "host": "Leipzig.",
+            "link": "https://adventurousmusic.bandcamp.com/album/ex-zine-edition-2",
+            "content": false,
+            "date": "Apr ’25"
+        },
+        {
+            "id": 47,
+            "title": "Futura. Episode 1. Art, Science and Technology",
+            "host": "Universidad Nacional de Quilmes.",
+            "link": "https://www.youtube.com/watch?v=EPKKxN_bDZo",
+            "content": false,
+            "date": "Mar '25"
+        },
+        {
             "id": 46,
             "title": "Sound Design in 'A Night in Calilegua'",
             "host": "Museo de la Memoria, Rosario.",
-            "link":"https://www.museodelamemoria.gob.ar/page/muestras/id/80/title/Una-noche-en-Calilegua",
-            "content":false,
+            "link": "https://www.museodelamemoria.gob.ar/page/muestras/id/80/title/Una-noche-en-Calilegua",
+            "content": false,
             "date": "Mar ’24"
         },
         {
             "id": 45,
             "title": "Connect",
             "host": "T R A M A S, CDMX.",
-            "link":"https://www.youtube.com/watch?v=eqZZ-I7t5Gw&t=2078s",
-            "content":false,
+            "link": "https://www.youtube.com/watch?v=eqZZ-I7t5Gw&t=2078s",
+            "content": false,
             "date": "Sep ’23"
         },
         {
             "id": 44,
             "title": "'Insight', Música Insolita",
             "host": "Brazil.",
-            "link":"https://musicainsolita.bandcamp.com/album/imin-ncias",
-            "content":false,
+            "link": "https://musicainsolita.bandcamp.com/album/imin-ncias",
+            "content": false,
             "date": "May ’23"
         },
         {
             "id": 43,
             "title": "'Locus', Sur Aural Festival' / T ́IWKAY, Other Possible Worlds",
             "host": "Bolivia.",
-            "link":"https://suraural.org/",
-            "content":false,
+            "link": "https://suraural.org/",
+            "content": false,
             "date": "Jul ’22"
         },
         {
             "id": 42,
             "title": "“LOC's (Lab on a Chip)",
             "host": "Sonido Atmosférico, Córdoba.",
-            "link":"https://sonidoatmosfericoediciones.bandcamp.com/album/resonancias-atmosf-ricas-vi-b",
-            "content":false,
+            "link": "https://sonidoatmosfericoediciones.bandcamp.com/album/resonancias-atmosf-ricas-vi-b",
+            "content": false,
             "date": "Jun ’22"
         },
         {
             "id": 41,
             "title": "Ruido de color",
             "host": "Crudo Arte Contemporáneo, Rosario.",
-            "link":"https://www.instagram.com/p/CMcytfTg7yx/?img_index=1",
-            "content":false,
+            "link": "https://www.instagram.com/p/CMcytfTg7yx/?img_index=1",
+            "content": false,
             "date": "Mar ’21"
         }
     ],
@@ -496,7 +511,8 @@
     "workshops": [
         {
             "id": 61,
-            "name": "BioCode Workshop: The Hidden Language of Plants",
+            "name": "BioCode Workshop",
+            "subtitle": "The Hidden Language of Plants",
             "description": "In this groundbreaking virtual workshop, we bridge the worlds of botany and technology to explore the fascinating realm of plant intelligence and bio-digital interaction. Through four intensive 3-hour sessions combining scientific theory with hands-on practice, participants will discover how plants perceive their environment, communicate, and respond to stimuli - and learn to translate these biological processes into interactive art and technology.",
             "structure": {
                 "title": "Workshop Structure:",
@@ -567,6 +583,7 @@
         {
             "id": 60,
             "name": "Algorithmic Noise",
+            "subtitle": "Livecoding  and Textures of Computational Sound",
             "resume": "This immersive online workshop explores noise as a powerful sonic material and a creative tool in digital composition. Through real-time programming and generative systems, participants will learn how to sculpt complex textures, rhythmic patterns, and spatial sound environments using SuperCollider. Across 12 hours of live instruction, this workshop bridges sound design, digital arts, and live performance.",
             "structure": {
                 "title": "Workshop Structure:",
@@ -627,7 +644,7 @@
                     "Optional showcase opportunity"
                 ]
             },
-            "footer": "Join us to develop a new language for interacting with the natural world - one that blends science, technology and creativity in unprecedented ways. Spaces are limited to ensure personalized attention for all participants."   
+            "footer": "Join us to develop a new language for interacting with the natural world - one that blends science, technology and creativity in unprecedented ways. Spaces are limited to ensure personalized attention for all participants."
         }
     ]
 }

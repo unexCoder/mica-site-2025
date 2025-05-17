@@ -12,6 +12,7 @@ type FlatItem = {
   id: number;
   title?: string;
   name?: string;
+  subtitle?: string;
   image?: string;
   body?: string;
   host?: string;
@@ -104,7 +105,7 @@ export default async function EventPage({ params }: EventPageProps) {
 
             <div className={styles.header}>
               <Link href={`/`}><h3>{event.category.slice(0, -1)}</h3></Link>
-              <h1>{event.name}</h1>
+              <h1>{event.name}. {event.subtitle}</h1>
               <p>{event.resume}</p>
               {/* <p>{event.description}</p> */}
             </div>

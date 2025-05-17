@@ -135,7 +135,7 @@ export default function MainContent() {
                             <SmallCard
                                 key={e.id}
                                 title={e.name}
-                                text={e.name}
+                                text={e.subtitle}
                             />
                         </Link>
                     ))}
