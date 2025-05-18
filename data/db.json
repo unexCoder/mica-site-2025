@@ -43,7 +43,15 @@
             "social": {
                 "youtube": "https://www.youtube.com/watch?v=fwCdGCmJeVw&t=825s",
                 "bandcamp": "https://ratasordarec.bandcamp.com/album/target "
-            }
+            },
+            "gallery":[
+                "https://live.staticflickr.com/65535/54528226159_0dca3185bd_b.jpg",
+                "https://live.staticflickr.com/65535/54527170152_3bfa792e4e_b.jpg",
+                "https://live.staticflickr.com/65535/54528285178_76d13d8192_b.jpg",
+                "https://live.staticflickr.com/65535/54525456174_742cc5a1b3_b.jpg",
+                "https://live.staticflickr.com/65535/54416186639_b95bc0935b_b.jpg",
+                "https://live.staticflickr.com/65535/54415998456_d8fdbc5b8a_k.jpg"
+            ]
         },
 
         {

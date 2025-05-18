@@ -1,0 +1,19 @@
+.container {
+    background: #000;
+    color: var(--green);
+    padding: 10px 0;
+}
+
+.imgContainer {
+    margin-top: 10px;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+@media (max-width: 600px) {
+    .imgContainer {
+        grid-template-columns: 1fr;
+    }
+}
