@@ -64,7 +64,7 @@
 
 @media (max-width: 600px) {
     .container {
-        height: 96svh;
+        height: auto;
         top: 4svh;
     }
 }

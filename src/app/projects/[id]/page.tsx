@@ -4,6 +4,7 @@ import Image from 'next/legacy/image';
 
 import BlogBody from '../../components/BlogBody';
 import YouTubeEmbed from '@/app/components/YoutubeEmbed';
+import Gallery from '@/app/components/Gallery';
 
 interface BlogEntry {
   chapter: string;
@@ -16,6 +17,7 @@ interface Project {
   image: string;
   blog?: BlogEntry[];
   user_email: string;
+  gallery?: string[];
 }
 
 interface SocialLinks {
@@ -150,8 +152,17 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
               </a>
             </div>
           )}
-        </article>
 
+          {/* image gallerie */}
+          {project?.gallery && (
+            <div>
+              <Gallery images={project.gallery}></Gallery>
+            </div>
+          )}
+
+        </article>
+      </div>
+        
         {/* Footer image */}
         {project?.footimage && (
           <img
@@ -160,7 +171,6 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
           />          
         )}
 
-      </div>
     </div>
 
   );
