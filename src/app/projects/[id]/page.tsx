@@ -162,14 +162,21 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
 
         </article>
       </div>
-        
-        {/* Footer image */}
-        {project?.footimage && (
-          <img
+
+      {/* Footer image */}
+      {project?.footimage && (
+        <div className={styles.footerImg}>
+          <Image
             src={project.footimage}
-            alt={project.title}
-          />          
-        )}
+            layout='responsive'
+            width={5}
+            height={3}
+            alt="unexcoder"
+            quality={100}
+            priority={true}
+          />
+        </div>
+      )}
 
     </div>
 

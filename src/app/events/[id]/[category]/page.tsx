@@ -2,9 +2,10 @@ import styles from './event.module.css';
 import data from "../../../../../data/db.json";
 // import { ReactElement, JSXElementConstructor, ReactNode, ReactPortal } from 'react';
 import Link from 'next/link';
+import Gallery from '@/app/components/Gallery';
 
 interface EventPageProps {
-  params: Promise< { id: string, category: string }>; // `id` will come as a string from the URL
+  params: Promise<{ id: string, category: string }>; // `id` will come as a string from the URL
 }
 
 type FlatItem = {
@@ -17,7 +18,9 @@ type FlatItem = {
   body?: string;
   host?: string;
   date?: string;
-  content?:boolean;
+  txt?: string[];
+  pics?: string[];
+  content?: boolean;
   link?: string;
   resume?: string;
   description?: string;
@@ -91,13 +94,19 @@ export default async function EventPage({ params }: EventPageProps) {
 
   return (
     <>
-      <div className={styles.container}>
+
+      <div className={
+        event.category === "workshops" ? styles.container :
+          event.category === "performances" ? styles.containerP :
+            event.category === "exhibitions" ? styles.containerE :
+              styles.container
+      }>
         {/* <h1>{event.category}</h1>
-        <h1>{event.title}</h1>
-        <p>{event.body}</p>
-        <p>{event.name}</p>
-        <p>{event.host}</p>
-        <p>{event.user_email}</p> */}
+      <h1>{event.title}</h1>
+      <p>{event.body}</p>
+      <p>{event.name}</p>
+      <p>{event.host}</p>
+      <p>{event.user_email}</p> */}
 
         {event?.category === "workshops" && (
 
@@ -176,11 +185,34 @@ export default async function EventPage({ params }: EventPageProps) {
             </div>
 
           </div>
+
         )}
 
         {event?.category === "performances" && (
-          <div>perfos</div>
+          <div className={styles.performance}>
+            <div className={styles.performanceHeader}>
+              <h2>{event.title}</h2>
+              <h3>{event.host}</h3>
+              <h3>{event.date}</h3>            
+            </div>
+
+            {event.txt?.map((entry: string, index: number) => (
+              <div key={index} className={styles.abstractItem}>
+                <p>{entry}</p>
+              </div>
+            ))}
+
+            {/* image gallerie */}
+            {event.pics && (
+              <div>
+                <Gallery images={event.pics}></Gallery>
+              </div>
+            )}
+
+          </div>
         )}
+
+
         {event?.category === "exhibitions" && (
           <div>exhibs</div>
         )}
@@ -193,7 +225,6 @@ export default async function EventPage({ params }: EventPageProps) {
         {event?.category === "talks" && (
           <div>talks</div>
         )}
-
       </div>
     </>
   );

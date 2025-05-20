@@ -32,7 +32,9 @@ export default function RootLayout({
           </div>
         </header>
           {children}
+        <footer>
+          <a href="mailto:micaelatrombini555@gmail.com">Get in touch</a>
+        </footer>
       </div>
-
   );
 }
