@@ -44,7 +44,7 @@
                 "youtube": "https://www.youtube.com/watch?v=fwCdGCmJeVw&t=825s",
                 "bandcamp": "https://ratasordarec.bandcamp.com/album/target "
             },
-            "gallery":[
+            "gallery": [
                 "https://live.staticflickr.com/65535/54528226159_0dca3185bd_b.jpg",
                 "https://live.staticflickr.com/65535/54527170152_3bfa792e4e_b.jpg",
                 "https://live.staticflickr.com/65535/54528285178_76d13d8192_b.jpg",
@@ -53,7 +53,6 @@
                 "https://live.staticflickr.com/65535/54415998456_d8fdbc5b8a_k.jpg"
             ]
         },
-
         {
             "id": 4,
             "title": "Sparklab: Science, Art & Technology for Kids",
@@ -61,7 +60,7 @@
             "image": "https://live.staticflickr.com/65535/54416186639_b95bc0935b_b.jpg",
             "blog": [
                 {
-                    "chapter":"Sparklab: Science, Art & Technology for Kids",
+                    "chapter": "Sparklab: Science, Art & Technology for Kids",
                     "body": [
                         "Sparklab is an independent, mobile project that I have been nurturing and developing for over ten years. It began as a personal initiative to bring science, art, and technology closer to children and teenagers through creative experimentation. My work is rooted in the belief that learning should be joyful, exploratory, and meaningful—especially during childhood and adolescence, when curiosity is at its peak. Sparklab is my way of offering a different kind of educational experience: one that is playful, hands-on, and deeply human.",
                         "Each workshop is designed and led by me, with great attention to detail and care for the unique energy of each group. I create open-ended learning spaces where participants can build, play, test, discover, and express themselves freely. Activities range from making homemade circuits and simple robotic inventions, to working with light, sound, recycled materials, or colorful chemistry. The content is always interdisciplinary, blending scientific thinking with artistic expression, and adapted to different age groups and contexts. No two sessions are the same, and that's part of the magic.",
@@ -74,10 +73,18 @@
             "social": {
                 "footer1": "✨ Interested in learning more, booking a session, or organizing a creative event?",
                 "footer2": "👉 Click here to get in touch!",
-                "wathsapp":"https://wa.me/3413915875"
-            }
+                "wathsapp": "https://wa.me/3413915875"
+            },
+            "footimage": "https://live.staticflickr.com/65535/54528750416_7b5ca6b8ef_b.jpg",
+            "gallery": [
+                "https://live.staticflickr.com/65535/54528788676_0b5c097e86_b.jpg",
+                "https://live.staticflickr.com/65535/54529129960_33400cccb3_b.jpg",
+                "https://live.staticflickr.com/65535/54528750416_7b5ca6b8ef_b.jpg",
+                "https://live.staticflickr.com/65535/54528750306_468eb3bb4e_b.jpg",
+                "https://live.staticflickr.com/65535/54528788656_63b5e67bd6_c.jpg",
+                "https://live.staticflickr.com/65535/54528929779_a3df820e0c_b.jpg"
+            ]
         },
-
         {
             "id": 3,
             "title": "Algorithmic Noise",
@@ -105,7 +112,13 @@
             "social": {
                 "hasher": "https://spicarecords.bandcamp.com/album/hasher",
                 "brvtvs": "https://b-r-v-t-v-s.bandcamp.com/album/demonoid"
-            }
+            },
+            "footimage": "https://live.staticflickr.com/65535/54530247499_4a6e5c3f7d_b.jpg",
+            "gallery": [
+                "https://live.staticflickr.com/65535/54528816151_9c9378fabf_b.jpg",
+                "https://live.staticflickr.com/65535/54527937862_c607f2520b_b.jpg",
+                "https://live.staticflickr.com/65535/54529157435_2d2ee4cc54_b.jpg"
+            ]
         },
         {
             "id": 2,
@@ -186,6 +199,12 @@
                         "This line of experimentation has applications in both generative art and music, as well as in the scientific study of plant behavior. By creating advanced sensors and integrating them into innovative biointerfaces, BioCode enables a deeper exploration of plant bioelectricity, bringing us closer to understanding their reactivity, communication, and cognitive potential within their ecosystems."
                     ]
                 }
+            ],
+            "footimage": "https://live.staticflickr.com/65535/54530387005_8ec52afc5c_b.jpg",
+            "gallery": [
+                "https://live.staticflickr.com/65535/54529165822_f4bc8ec2ba_b.jpg",
+                "https://live.staticflickr.com/65535/54530281543_2fc8772a44_b.jpg",
+                "https://live.staticflickr.com/65535/54530226389_5c5e9cb805_b.jpg"
             ]
         }
     ],
@@ -261,7 +280,7 @@
     ],
     "performances": [
         {
-            "id": 223,
+            "id": 224,
             "title": "Livecode Performance.",
             "host": "Raumschiff, Linz",
             "link": "https://www.instagram.com/p/DChQMyftU4O/",
@@ -269,21 +288,21 @@
             "date": "Nov ’24"
         },
         {
-            "id": 222,
+            "id": 223,
             "title": "Livecode Performance.",
             "host": "Velak, Wien",
             "content": true,
             "date": "Nov ’24"
         },
         {
-            "id": 221,
+            "id": 222,
             "title": "Livecode Performance.",
             "host": "Vekks, Wien",
             "content": true,
             "date": "Nov ’24"
         },
         {
-            "id": 220,
+            "id": 221,
             "title": "Livecode Performance.",
             "host": "Vasulka Kitchen, Brno",
             "link": "https://www.instagram.com/p/DC1h8T2xr-J/?img_index=3",
@@ -291,7 +310,7 @@
             "date": "Nov ’24"
         },
         {
-            "id": 219,
+            "id": 220,
             "title": "Livecode Performance.",
             "host": "Alternativa Festival, Prague",
             "link": "https://www.alternativa-festival.cz/index.php/en/2024-mica-trombini",
@@ -299,19 +318,32 @@
             "date": "Nov ’24"
         },
         {
-            "id": 218,
+            "id": 219,
             "title": "Livecode Performance.",
             "host": "Dim Things, Berlin",
             "content": true,
             "date": "Nov ’24"
         },
         {
-            "id": 217,
+            "id": 218,
             "title": "Livecode Performance.",
             "host": "/ni:vi:ili/ Creative Code, Berlin",
             "link": "https://www.niviili.com/",
             "content": false,
             "date": "Nov ’24"
+        },
+        {
+            "id": 217,
+            "title": "Livecoding Performance in SuperCollider.",
+            "host": "4bid Gallery, Amsterdam",
+            "content": true,
+            "date": "Nov ’24",
+            "txt": [
+                "On November 8th in Amsterdam, at 4bid Gallery, I performed a Livecoding set using SuperCollider, blending technology and sound in real time. The performance was the result of a continuous and dynamic dialogue between myself and the machine, where algorithms were not only executed but also rewritten live as part of the creative process.",
+                "At the core of the performance was real-time coding — a direct interaction with algorithmic structures that I modified and adapted on the fly. This immediate manipulation of sound logic created an auditory experience that was both unpredictable and immersive, constantly evolving with every decision I made.",
+                "As the code changed, so did the sonic landscape, turning the space into a living field of sound exploration and experimentation. Each moment was unique and unrepeatable, shaped by spontaneity and the ever-changing relationship between human and machine."
+                ],
+            "pics":["https://live.staticflickr.com/65535/54529653122_aa7d7b02c9_b.jpg","https://live.staticflickr.com/65535/54530533201_4581deb24b_b.jpg"]
         },
         {
             "id": 216,

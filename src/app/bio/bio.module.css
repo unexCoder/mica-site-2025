@@ -10,14 +10,25 @@
   z-index: 2;
 }
 
-.container h1 {
-  font-weight: 100;
+.bio p {
+  padding: 10px 0;
+    font-size: 1.5em;
+  font-variation-settings: 'wght' 500, 'wdth' 51,'opsz' 16,'slnt' 0,'GRAD' 0,'XOPQ' 96,'YOPQ' 79,'XTRA' 468,'YTAS'750,'YTDE'-203,'YTLC' 514,'YTUC' 760,'YTFI' 738;
 }
 
+.biopic {
+  margin: 20px 0 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 @media (max-width: 600px) {
     .container {
-        height: 96svh;
+        height: auto;
         top: 4svh;
     }
 }
+
+
+

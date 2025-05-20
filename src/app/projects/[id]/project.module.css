@@ -67,4 +67,8 @@
         height: auto;
         top: 4svh;
     }
+
+    .footerImg {
+      display: none;
+    }
 }
