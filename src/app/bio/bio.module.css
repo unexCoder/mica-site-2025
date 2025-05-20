@@ -1,6 +1,8 @@
 .container {
-  background: var(--green);
-  min-height: 97svh;
+  /* background: var(--green); */
+  background: #000;
+  color: var(--green);
+  min-height: auto;
   padding: 0 20px;
   /* width: 100svw; */
   /* height: 88vh; */
@@ -17,17 +19,21 @@
 }
 
 .biopic {
-  margin: 20px 0 50px 0;
+  margin: 0 0 3svh 0;
+  padding: 20px 0 40px 0;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 @media (max-width: 600px) {
-    .container {
-        height: auto;
-        top: 4svh;
-    }
+  .container {
+    height: auto;
+    top: 4svh;
+  }
+  .biopic {
+    margin: 0 0 4svh 0;
+  }
 }
 
 

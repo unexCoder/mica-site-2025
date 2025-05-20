@@ -10,8 +10,8 @@ interface YouTubeEmbedProps {
   export function YouTubeEmbed({ url }: YouTubeEmbedProps) {
     const [showVideo, setShowVideo] = useState(false);
     const videoId = getYouTubeId(url);
-    console.log("videoId", videoId);
-    console.log("url", url);
+    // console.log("videoId", videoId);
+    // console.log("url", url);
     if (!videoId) return null;
   
     return (

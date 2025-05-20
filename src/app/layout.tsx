@@ -1,9 +1,12 @@
+'use client'
+
 import type { Metadata } from "next";
 import { Roboto_Flex } from 'next/font/google'
 import "./globals.css";
 import Link from "next/link";
+import { use, useEffect, useState } from 'react';
 
-// const inter = Inter({
+// const inter = Inter({x
 //   subsets: ['latin'],
 //   display: 'swap',
 // })
@@ -16,7 +19,7 @@ const roboto = Roboto_Flex({
   axes: ['opsz','wdth','slnt','GRAD','XOPQ','YOPQ','XTRA','YTAS','YTDE','YTLC','YTUC','YTFI'],
 })
 
-export const metadata: Metadata = {
+const metadata: Metadata = {
   title: "Micaela Trombini",
   description: "Personal site",
 };
@@ -26,6 +29,22 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
+  const [isMobile, setIsMobile] = useState<boolean>(false);
+  
+  useEffect(() => {
+    // Set initial state
+    setIsMobile(window.innerWidth <= 768);
+    
+    // Optional: Update on window resize
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+    
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
   return (
     <html lang="en" className={roboto.className}>
       <body>
@@ -33,7 +52,7 @@ export default function RootLayout({
           <div className="logo">
             <div className="title">
               <h1>
-                <Link href="/">Micaela Trombini</Link>
+                <Link href={isMobile ? '/bio' : '/'}>Micaela Trombini</Link>
               </h1>
             </div>
             <div className="header-bio">

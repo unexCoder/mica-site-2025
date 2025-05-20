@@ -34,7 +34,7 @@ export default function MainContent() {
                         <Card
                             key={project.id}
                             title={project.title}
-                            image={project.image || "https://via.placeholder.com/150"} // Fallback image
+                            image={project.image} // Fallback image
                         />
                     </Link>
                 ))}
