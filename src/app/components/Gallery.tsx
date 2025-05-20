@@ -11,8 +11,9 @@ export default function Gallery({ images }: Props) {
             {/* Image Galley */}
             <h2>Gallery</h2>
             <div className={styles.imgContainer}>
-                {images.map((e) => (
+                {images.map((e,i) => (
                     <Image
+                        key={i}
                         src={e}
                         // layout='responsive'
                         width={500*0.95}

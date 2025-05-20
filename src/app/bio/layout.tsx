@@ -27,7 +27,9 @@ export default function RootLayout({
         <header>
           <div className="logo">
             <div className={style.headerTitle}>
-              <h3>extended bio</h3>
+              <h3>
+                <Link href="/">extended bio</Link>
+              </h3>
             </div>
           </div>
         </header>

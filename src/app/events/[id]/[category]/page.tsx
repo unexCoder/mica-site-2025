@@ -85,7 +85,7 @@ export default async function EventPage({ params }: EventPageProps) {
       category: category.toLowerCase()
     }))
   );
-  console.log(flatArray);
+  // console.log(flatArray);
   const event = flatArray.find((e) => e.id === eventId);
 
   if (!event) {
