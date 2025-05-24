@@ -12,4 +12,8 @@
     .layout header {
         height: 4svh;
     }
+
+    .layout footer {
+        height: 4svh;
+    }
 }
