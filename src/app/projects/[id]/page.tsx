@@ -165,7 +165,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
 
       {/* Footer image */}
       {project?.footimage && (
-        <div className={styles.footerImg}>
+        <div className={styles.footerImg} style={{ display: project.title === 'BioCode: The Secret Music of Plants' ? 'block' : 'none' }}>
           <Image
             src={project.footimage}
             layout='responsive'

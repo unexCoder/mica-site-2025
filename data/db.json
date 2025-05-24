@@ -73,7 +73,8 @@
             "social": {
                 "footer1": "✨ Interested in learning more, booking a session, or organizing a creative event?",
                 "footer2": "👉 Click here to get in touch!",
-                "wathsapp": "https://wa.me/3413915875"
+                "wathsapp": "https://wa.me/3413915875",
+                "youtube":"https://www.youtube.com/watch?v=e9NQL5Z5Q8M"
             },
             "footimage": "https://live.staticflickr.com/65535/54528750416_7b5ca6b8ef_b.jpg",
             "gallery": [
@@ -82,7 +83,13 @@
                 "https://live.staticflickr.com/65535/54528750416_7b5ca6b8ef_b.jpg",
                 "https://live.staticflickr.com/65535/54528750306_468eb3bb4e_b.jpg",
                 "https://live.staticflickr.com/65535/54528788656_63b5e67bd6_c.jpg",
-                "https://live.staticflickr.com/65535/54528929779_a3df820e0c_b.jpg"
+                "https://live.staticflickr.com/65535/54528929779_a3df820e0c_b.jpg",
+                "https://live.staticflickr.com/65535/54541039639_6bd4cde15c_b.jpg",
+                "https://live.staticflickr.com/65535/54540854981_081d654f74_b.jpg",
+                "https://live.staticflickr.com/65535/54541093168_9968f57aa8_c.jpg",
+                "https://live.staticflickr.com/65535/54541093183_a3bd6b349c_b.jpg",
+                "https://live.staticflickr.com/65535/54541093203_9457da9350_b.jpg",
+                "https://live.staticflickr.com/65535/54541195855_18f98a363a_z.jpg"
             ]
         },
         {
@@ -111,7 +118,8 @@
             ],
             "social": {
                 "hasher": "https://spicarecords.bandcamp.com/album/hasher",
-                "brvtvs": "https://b-r-v-t-v-s.bandcamp.com/album/demonoid"
+                "brvtvs": "https://b-r-v-t-v-s.bandcamp.com/album/demonoid",
+                "youtube":"https://www.youtube.com/watch?v=DSnUT0br7ew"
             },
             "footimage": "https://live.staticflickr.com/65535/54530247499_4a6e5c3f7d_b.jpg",
             "gallery": [
@@ -201,6 +209,9 @@
                 }
             ],
             "footimage": "https://live.staticflickr.com/65535/54530387005_8ec52afc5c_b.jpg",
+            "social": {
+                "youtube":"https://www.youtube.com/watch?v=Kj2vxBCZa70"
+            },
             "gallery": [
                 "https://live.staticflickr.com/65535/54529165822_f4bc8ec2ba_b.jpg",
                 "https://live.staticflickr.com/65535/54530281543_2fc8772a44_b.jpg",
@@ -464,7 +475,7 @@
             "id": 49,
             "title": "Sound Design in Film: Translating One's Own (or the Symptom to Be Remembered). Directed by Nicolás Onischuk.",
             "host": "Prismatic Ground, NYC.",
-            "link": "https://www.instagram.com/p/DJKGdhoxs9e/?img_index=1",
+            "link": "https://nicolasonischuk.com.ar/project/traducir-lo-propio-o-el-sintoma-por-recordar/",
             "content": false,
             "date": "Apr ’25"
         },
