@@ -46,6 +46,7 @@ type FlatItem = {
       cnt: string;
     }>;
   };
+  drive?: string;
   footer?: string;
 };
 
@@ -157,7 +158,11 @@ export default async function EventPage({ params }: EventPageProps) {
                   </div>
                 ))}
                 <div className={styles.buttonsSmall}>
-                  <button>Download Full Program</button>
+                  <button>
+                    <Link href={event.drive ? event.drive : '/'} target="_blank">
+                      Download Full Program
+                    </Link>
+                  </button>
                 </div>
               </div>
             )}
